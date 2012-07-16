@@ -536,15 +536,15 @@ en:
     failure:
       error: "There was an error while loggin in. Please try again."
   site:
-    host: catarse.me
-    base_url: "http://catarse.me"
-    blog: "http://blog.catarse.me/"
+    host: ride-lab.com
+    base_url: "http://ride-lab.com/"
+    blog: "http://www.blog.ride-lab.com"
     email:
       contact: contato@catarse.me
       payments: financeiro@catarse.me
       projects: projetos@catarse.me
       system: system@catarse.me
-    facebook: "http://www.facebook.com/Catarse.me"
+    facebook: "http://www.facebook.com/pages/Ride-labcom/225103847583458"
     name: Catarse
     title: "The first crowdfunding platform from Brazil"
     twitter: Catarse_

@@ -67,21 +67,21 @@
             = hidden_field_tag 'url_error', "http://#{request.env['HTTP_HOST']}/?newsletter=error"
             = text_field_tag 'email', nil, placeholder: 'email@email.com'
             = submit_tag t('sidebar.buttons.newsletter')
-        .faq
-          h3= t('sidebar.titles.faq')
-          = link_to image_tag('catarse/faq_video.png'), '#'
-        .schedule
-          h3= t('sidebar.titles.schedule')
-          ul.events
-            - @events.each do |event|
-              li
-                = link_to event['htmlLink'] do
-                  h4
-                    | #{event['start']['dateTime'].to_date.strftime('%d')}
-                    br/
-                    span= event['start']['dateTime'].to_date.strftime('%b').upcase
-                  p= (event['description'].present? ? event['description'] : event['title'])
-          .clearfix
+        /.faq
+          /h3= t('sidebar.titles.faq')
+          /= link_to image_tag('catarse/faq_video.png'), '#'
+        /.schedule
+          /h3= t('sidebar.titles.schedule')
+          /ul.events
+            /- @events.each do |event|
+              /li
+                /= link_to event['htmlLink'] do
+                  /h4
+                    /| #{event['start']['dateTime'].to_date.strftime('%d')}
+                    /br/
+                    /span= event['start']['dateTime'].to_date.strftime('%b').upcase
+                  /p= (event['description'].present? ? event['description'] : event['title'])
+          /.clearfix
 
     .clearfix
 

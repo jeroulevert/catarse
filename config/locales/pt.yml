@@ -538,7 +538,7 @@ pt:
   site:
     host: catarse.me
     base_url: "http://catarse.me"
-    blog: "http://blog.catarse.me/"
+    blog: "http://www.blog.ride-lab.com"
     email:
       contact: contato@catarse.me
       payments: financeiro@catarse.me
