@@ -540,14 +540,14 @@ en:
     base_url: "http://ride-lab.com/"
     blog: "http://www.blog.ride-lab.com"
     email:
-      contact: contato@catarse.me
-      payments: financeiro@catarse.me
-      projects: projetos@catarse.me
-      system: system@catarse.me
+      contact: contact@ride-lab.com
+      payments: finance@ride-lab.com
+      projects: projects@ride-lab.com
+      system: system@ride-lab.com
     facebook: "http://www.facebook.com/pages/Ride-labcom/225103847583458"
-    name: Catarse
-    title: "The first crowdfunding platform from Brazil"
-    twitter: Catarse_
+    name: Ride-lab.com
+    title: "Ride-lab.com crowdfunding"
+    twitter: ridelab
   static:
     faq:
       title: "Frequent asked questions"
