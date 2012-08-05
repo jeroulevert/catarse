@@ -19,7 +19,7 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
     = csrf_meta_tag
     link rel='shortcut icon' href="/assets/favicon.ico"
     = render '/layouts/analytics'
-    = render '/layouts/uservoice'
+    /= render '/layouts/uservoice'
 
   body[id="platform" data-namespace="#{namespace}" data-controller="#{controller_name}" data-action="#{action_name}" data-locale="#{I18n.locale}" data-user="#{current_user.to_json}"]
     = render partial: 'layouts/flash', locals: { flash: flash } unless flash.empty?
@@ -53,7 +53,7 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
                 h5= number_to_currency @total_backed, :unit => 'EUR', :precision => 0, :delimiter => '.'
                 p= t('footer.stats.total_backed')
               li
-                h5= @total_users
+                h5= @total_backed
                 p= t('footer.stats.users')
               li
                 h5= @total_projects_success

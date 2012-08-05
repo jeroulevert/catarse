@@ -1,0 +1,5 @@
+fr:
+  will_paginate:
+    next: "Next »"
+    page_gap: "..."
+    previous: "« Previous"
