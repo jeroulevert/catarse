@@ -29,7 +29,7 @@ class PaypalController < ApplicationController
         ip: request.remote_ip,
         return_url: success_paypal_url(backer),
         cancel_return_url: cancel_paypal_url(backer),
-        currency_code: 'BRL',
+        currency_code: 'EUR',
         description: t('paypal_description', scope: SCOPE, :project_name => backer.project.name, :value => backer.display_value),
         notify_url: notifications_paypal_url(backer)
       })
