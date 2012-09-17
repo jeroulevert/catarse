@@ -84,6 +84,7 @@ group :assets do
   gem "compass-rails", "~> 1.0.1"
   gem 'uglifier', '>= 1.0.3'
   gem 'compass-960-plugin', '~> 0.10.4'
+  gem "therubyracer", :require => 'v8'
 end
 
 group :test, :development do
@@ -105,3 +106,8 @@ group :test do
   gem 'shoulda'
   gem 'factory_girl_rails', '1.7.0'
 end
+gem 'rubber'
+gem 'open4'
+gem 'gelf'
+gem 'graylog2_exceptions', :git => 'git://github.com/wr0ngway/graylog2_exceptions.git'
+gem 'graylog2-resque'

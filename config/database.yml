@@ -48,3 +48,4 @@ production:
   database: catarse_production
   pool: 5
   username: catarse
+  password: 123catarse
