@@ -1,0 +1,622 @@
+fr:
+  or: or
+  newsletter_ok_header: "Vous êtes inscrit à notre newsletter!"
+  newsletter_ok_body: "Votre email est maintenant dans notre mailing liste, merci!"
+  newsletter_error_header: "Woops! Il y a eu une erreur."
+  newsletter_error_body: "Votre email ne peut pas être ajouté actuellement, merci de rééssayer plus tard!"
+  views:
+    pagination:
+      next: next
+      last: last
+      truncate: "..."
+  statistics:
+    backers:
+      subtitle: backers
+    goal:
+      subtitle: "total de %{total}"
+  project_by: "projet par"
+  tell_about_this_back: "Partager!"
+  share_my_backs: "Voir les projets que je supporte sur Ride-lab!"
+  tell_about_this_project: "Partager!"
+  share_my_projects: "Voir mes projets sur Ride-lab!"
+  count_backed_projects: "backed %{total} projects"
+  footer:
+    titles:
+      info: "Informations utiles"
+      opendata: "Statistiques"
+      social: "Vous aimez Ride-lab.com?"
+      newsletter: "Recevoir notre newsletter"
+    stats:
+      backers: Backers
+      backs: Backs
+      total_backed: Backed
+      users: Users
+      funded_projects: "Projets financés"
+      active_projects: "Projets populaires"
+    links:
+      how_works: "Fonctionnement"
+      faq: F.A.Q./Aide
+      terms: "C.G.U."
+      policy: "Privacy Policy"
+      contact: Contact
+  main:
+    links:
+      selected: "Voir plus de projets recommandés"
+      expiring: "explore more expiring projects"
+      recents: "Voir plus de récents projets"
+  sidebar:
+    titles:
+      blog: blog
+      facebook: "Notre facebook?"
+      twitter: "@ridelab"
+      newsletter: "Recevoir notre actualité?"
+      faq: "Vous avez un doute?"
+      schedule: calendar
+    buttons:
+      newsletter: submit
+  sections:
+    selection:
+      title: selection
+    expiring:
+      title: expiring
+    recents:
+      title: recents
+    partners:
+      title: partners
+  "no": "Non"
+  "yes": "Oui"
+  accept_terms_html: "J'ai lu et accepté les %{link}."
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              not_found: "Votre email n'est pas enregistré, merci de le vérifier ou de vous enregistrer"
+    attributes:
+      backer:
+        value: Value
+      project:
+        category: Category
+        expires_at: Deadline
+        headline: Headline
+        image_url: "URL de l'image"
+        name: Name
+        user_id: "User Id"
+        video_url: "URL de la vidéo"
+      reward:
+        description: Description
+        maximum_backers: "Nombre maximum de soutiens"
+        minimum_value: "Montant minimum"
+      user:
+        address_city: City
+        address_complement: Complement
+        address_neighbourhood: Neighbourhood
+        address_number: Number
+        address_state: State
+        address_street: Street
+        address_zip_code: "Code postal"
+        cpf: CPF
+        current_password: "Mot de passe actuel"
+        email: Email
+        full_name: "Nom"
+        name: Name
+        password: Password
+        password_confirmation: "Confirmation du mot de passe"
+        phone_number: "N° téléphone mobile"
+    models:
+      backer: Backer
+      category: Category
+      project: Project
+      reward: Reward
+  backer:
+    display_confirmed_at: "%{time_ago} ago"
+    reward_must_be_from_project: "doit être du même projet"
+    should_not_back_if_maximum_backers_been_reached: "a obtenu le nombre maximum de soutiens"
+    value_must_be_at_least_rewards_value: "le montant minimum pour cette contrepartie est de %{minimum_value} "
+  backer_plural: backers
+  backer_singular: backer
+  click_here: "Cliquer ici"
+  clicking_here: "Cliquer ici"
+  comment:
+    display_time: "%{time_ago} ago"
+  credits:
+    index:
+      back_date: "Back date"
+      current_credits_html: "Votre balance actuelle est de <span id=\"current_credits\">%{credits}</span> crédits."
+      important_html: "You have <strong>up to 180 days after the payment date</strong> to ask for a refund. If you ask for a refund, the value of your payment will be deducted from your credits."
+      project: Project
+      refund_expration_date: "Date limite de remboursement"
+      refunded: Refunded
+      refunds_title: "Paiements pouvant être remboursés"
+      request_refund: "Demander remboursement"
+      requested_refund: "Remboursement demandé"
+      status: Status
+      title: "Mes crédits"
+      value: Value
+    refund:
+      cannot_refund: "Ce paiement ne peut pas être remboursé."
+      error: "Oops. Il ya eu une erreur lors de votre demande."
+      no_credits: "Vous n'avez pas assez de crédits pour demander ce remboursement."
+      refunded: "Ce paiement a déjà été remboursé."
+      requested_refund: "Vous avez déjà fait une demande de remboursement."
+    title: "Mes crédits"
+  credits_mailer:
+    request_refund_from:
+      subject: "Remboursement demandé par %{name}"
+      subject_html: "L'utilisateur %{name} demande un remboursement %{backer_key} pour le projet %{backer_project} in the amount of %{backer_value} made by %{backer_payment_service} gateway."
+  curated_pages:
+    index:
+      title: "Curated pages"
+    show:
+      backed: backed
+      reached: reached
+  devise:
+    confirmations:
+      confirmed: "Votre compte est confirmé. Vous êtes connecté."
+      send_instructions: "Vous allez recevoir un email vous demandant de confirmer votre inscription."
+      send_paranoid_instructions: "Vous allez recevoir par email un lien vous permettant de réinitialiser votre mot de passe."
+    failure:
+      already_authenticated: "Vous êtes déjà connecté."
+      inactive: "Votre compte n'est pas encore activé."
+      invalid: "Email ou mot de passe invalide."
+      invalid_token: "Invalid authentication token."
+      locked: "Votre compte est bloqué."
+      timeout: "Votre session a expiré. Merci de vous reconnecter."
+      unauthenticated: "Vous devez vous connecter ou vous enregistrer pour continuer."
+      unconfirmed: "Vous devez confirmer votre compte ( voir vos emails) avant de continuer."
+    links:
+      forgot_password: "Mot de passe oublié?"
+      sign_in: "Se connecter"
+      sign_up: "S'inscrire"
+    mailer:
+      confirmation_instructions:
+        subject: "Instructions de confirmation"
+      reset_password_instructions:
+        subject: "Instructions pour réinitialiser votre mot de passe"
+        alt: "Instructions pour réinitialiser votre mot de passe"
+      unlock_instructions:
+        subject: "Instruction de déblocage"
+    omniauth_callbacks:
+      failure: "Could not authorize you from %{kind} because \"%{reason}\"."
+      success: "Successfully authorized from %{kind} account."
+    passwords:
+      send_instructions: "Vous allez recevoir un email avec les instructions réinitialiser votre mot de passe."
+      send_paranoid_instructions: "Vous allez recevoir par email un lien vous permettant de réinitialiser votre mot de passe."
+      updated: "Votre mot de passe est réinitialisé. Vous êtes connecté."
+      updated_not_active: "Votre mot de passe est réinitialisé."
+    registrations:
+      destroyed: "Bye! Vous vous êtes désinscrit. Nous espérons vous revoir bientôt. ;-)"
+      inactive_signed_up: "Votre inscription est un succés! Cependant, nous n'avons pu vous connecter car votre compte est %{reason}."
+      reasons:
+        inactive: inactive
+        locked: locked
+        unconfirmed: unconfirmed
+      signed_up: "Bienvenue! Vous êtes maintenant enregistré."
+      updated: "Vous avez mis à jour votre compte."
+    sessions:
+      new:
+        site_title: "Se connecter"
+        submit: "Se connecter"
+        title: "Connectez-vous en utilisant votre email"
+        login_title: Login
+        login_subtitle: "Si vous avez déja un compte"
+        register_title: "S'enregistrer"
+        register_subtitle: "Utiliser l'email de votre compte"
+        with_facebook: "Vous connecter avec votre compte Facebook"
+        with_facebook_subtitle: "Enregistrez-vous en un click !"
+        with_another_social: "Vous n'avez pas de compte Facebook?"
+        with_another_social_subtitle: "Vous connecter grâce à un autre réseau social"
+      signed_in: "Vous êtes connecté."
+      signed_out: "Vous êtes déconnecté."
+    unlocks:
+      send_instructions: "Vous allez recevoir un email vous expliquant comment débloquer votre compte."
+      send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
+      unlocked: "Votre compte est débloqué. Vous êtes maintenant connecté."
+  error: "Ooops! Il y a eu une erreur. Merci de réessayer."
+  explore:
+    index:
+      categories: Categories
+      expiring: "Compte à rebours"
+      quick_explore: "Recherche"
+      recent: Recent
+      recommended: Recommended
+      subtitle: "Découvrez les projets, choisissez ceux qui vous touchent, et faites les se réaliser!"
+      successful: Successful
+      title: "Découvrir des projets étonnants"
+    title: "Découvrir les projets"
+    project:
+      empty: "Désolé, nous n'avons pas trouvé de projets."
+  formtastic:
+    hints:
+      backer:
+        credits: "Vous avez <strong>%{credits}</strong> crédits et vous pouvez les utiliser pour soutenir un projet."
+        value: "Vous choisissez le montant. Cela démarre à 10€, mais n'importe quel montant est le bienvenue ;-)"
+      project:
+        about: "Dites en quelques mots ce que vous voulez faire, de combien vous avez besoin et pourquoi. Soyez bref et concis, mais n'oubliez pas de stimuler les lecteurs avec quelque chose qui les enthousiasme. Après tout, c'est votre création, et ils ont besoin d'y ressentir votre passion!"
+        category: "Choisissez dans quelle catégorie vous voulez que votre projet apparaisse. Ne vous inquiétez pas si vous pensez qu'il s'inscrit dans plusieurs. Choisissez celle où vous voulez que les gens trouvent votre projet."
+        expires_at: "Enfin, choisissez sur combien de temps vous souhaitez réaliser votre campagne. Encore une fois, ce choix est stratégique: si vous mettez une période trop longue, l'intérêt pour le projet se perdra au fur et à mesure; si la durée est trop courte, vous risquez de ne pas atteindre le minimum souhaité dans les temps."
+        goal: "Réfléchissez bien au montant que vous demandez afin de réaliser votre projet. Il devra être <strong>le minimum nécessaire pour réaliser votre projet</strong>. Pas plus, pas moins. Si vous demandez trop, vos chances de valider le projet seront plus faibles; si vous ne demandez pas assez, vous ne serez pas en mesure de le réaliser dans de bonnes conditions."
+        headline: "Résumé votre projet en 140 caractères. Cette phrase sera le premier contact que l'utilisateur aura avec votre projet, avant même votre vidéo. Soyez créatif, clair et direct:)"
+        name: "Quel est le nom de votre projet? Choisissez le bien car il aura une influence sur l'attractivité de votre projet."
+        video_url: "Collez l'URL de votre video Vimeo ici. Nous avons choisi Vimeo.com car les vidéos sont de qualité et ne contiennent pas de pubs."
+      reward:
+        description: "Décrivez la contrepartie et donnez envie aux utilisateurs de vous soutenir. SOyez persuasif !"
+        maximum_backers: "Souhaitez-vous fixer une nombre limité de contreparties, dites-nous quel est votre maximum?"
+        minimum_value: "Ceci est le montant minimum pour cette contrepartie."
+    labels:
+      backer:
+        anonymous: "Je veux soutenir ce projet anonymement."
+        credits: "Je veux utiliser mes crédits pour ce projet."
+        reward: "Sélectionnez votre récompense."
+        value: "Vous voulez soutenir ce projet à hauteur de :"
+      comment:
+        comment: "Laisser un commentaire à propos de ce projet"
+      project:
+        about: "A propos de votre projet"
+        expires_at: "Quelle est la date limite pour atteindre votre objectif?"
+        goal: "De combien avez-vous besoin?"
+        name: "Nom du projet"
+        video_url: Video
+      reward:
+        maximum_backers: "Nombre maximum de soutiens (optionnel)"
+    optional: " (optionnel)"
+  found_plural: Found
+  found_singular: Found
+  here: here
+  i_backed: "Je soutiens le projet %{name} sur @Ridelab"
+  i_just_backed: "Je viens de soutenir le projet %{name} sur @Ridelab"
+  layouts:
+    login:
+      login_with_facebook: "Connectez-vous avec votre compte Facebook"
+      remember_me: "Je veux rester connecté."
+    header:
+      blog: blog
+      help: help
+      signup: "s'enregistrer"
+      signin: login
+      explore: explore
+      submit_project: submit
+      profile: "mon profil"
+      account: "mon compte"
+    user:
+      logout: Logout
+      my_credits: "Mes crédits"
+  not_informed: "pas informé"
+  notify_locale: "We identified your language by your browser. If you prefer another one, click on one of the flags on the right."
+  on_the_spot:
+    cancel: Cancel
+    ok: OK
+    tooltip: "Cliquer pour modifier..."
+  passwords:
+    edit:
+      label_new_password: "Nouveau mot de passe"
+      submit: "Changer son mot de passe"
+      title: "Changer son mot de passe"
+      site_title: "Changer son mot de passe"
+      subtitle: "Vous souhaitez réinitialiser votre mot de passe. Changez votre mot de passe et cliquez sur \"Change Password\". S'il s'agit d'une erreur, vous n'avez qu'à passer cette page."
+    email:
+      content_html: " <p>Someone has requested a link to change your password, and you can do this through the link below.</p><p>%{link}</p><p>If you didn't request this, please ignore this email.</p><p>Your password won't change until you access the link above and create a new one.</p> "
+      title: "Instructions pour changer de mot de passe."
+    new:
+      submit: "M'envoyer les instructions pour changer de mot de passe"
+      title: "Mot de passe oublié?"
+      site_title: "Récupérer votre mot de passe"
+  payment_stream:
+    thank_you:
+      error: "Ooops. Vous ne pouvez accéder à cette page uniquement après avoir soutenu ce projet."
+      header_subtitle: "Without you maybe this project wouldn't stand a chance. Welcome to the team!"
+      header_title: "Merci! :D"
+      text_subtitle: "Dites à tout le monde ce que vous venez de faire"
+      text_title_html: "You are now part of the group that does everything to make %{link} happen."
+      title: "Merci"
+  project:
+    start:
+      email_subject: "Nous avons bien reçu votre projet"
+      email_text: "Thanks for trusting your project to Ride-lab :)<br><br>We know that you expect a quick reply but, to be quite frank, we take up to 4 days to resnpond, ok? That is because we have a small team working on several projects. Note that the reply can come sooner, so keep atention to your inbox.<br><br>Meanwhile it is worth to get to know the projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them- back it! This is the way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around Ride-lab.<br><br>Besides that, you will get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about Ride-lab reading the posts in our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, send an email to: %{email}"
+      notification_text: "Nous avons bien reçu votre projet"
+    finish:
+      successful:
+        email_subject: "Hey! Le projet que vous avez soutenu sur Ride-lab.com est validé!"
+        email_text: "The project %{project_link}, which you backed, was successfuly funded on Ride-lab! Time to celebrate :D<br><br>Thank you very much, from the heart, for your support! Without you this would never have been possible. Soon, %{user_link} will contact you to deliver your reward. Meanwhile, share with everybody this success!"
+        facebook_text: "Hooray! The project '%{name}', which I backed, was successful on Ride-lab!"
+        notification_text: "Hooray! The project %{link} that you backed was successful! Spread the word!"
+        reward_notification_text: "Soon, %{link} will contact you to deliver your reward. Enjoy!"
+        twitter_text: "Hooray! The project '%{name}', which I backed, was successful on @ridelab! %{short_url}"
+      unsuccessful:
+        email_subject: "Le projet que vous avez soutenu sur Ride-lab.com est validé."
+        email_text: "The project %{project_link}, that you backed, was not funded. Maybe next time!<br><br>Because of this, you received <strong>%{value}</strong> in credits to back other projects. If you prefer, you can ask for a refund %{credits_link}."
+        notification_text: "You received %{value} in credits to back other projects. If you prefer, you can request a refund %{link}."
+        unsuccessful_text: "Le projet %{link} n'a pas été financé. Peut être une autre fois!"
+    verify_if_video_exists_on_vimeo: "doit exister sur Vimeo"
+    vimeo_regex_validation: "Seules les vidéos Vimeo sont acceptées"
+    display_status:
+      expired: "non financé"
+      successful: funded
+      waiting_confirmation: waiting
+  projects:
+    recommended_header:
+      sugest_for_you: "Suggestion pour vous"
+      highlight_project: "projet recommandé"
+    box:
+      by: by
+    admin_fields:
+      title: "Admin fields"
+    back_project:
+      project_warning:
+        not_successful:
+          expired: "This project didn't reach the goal of %{goal} until %{date} and wasn't funded"
+          not_expired: "This project will only be funded if at least %{goal} is backed until %{date}"
+        successful:
+          expired: "This project was successful and was funded on %{date}"
+          not_expired: "This project will be successful and funded on %{date}"
+        waiting_confirmation: "Waiting confirmation from payments to know if this project will be funded."
+      reached_of: "Reached of"
+      submit: "Soutenir ce projet"
+    backer:
+      anonymous_backer: "Anonymous backer"
+      anonymous_description: "Opted to remain incognito"
+      no_reward: "This backer has not picked a reward"
+    backers:
+      checkout:
+        moip_error: "Ooops. There was an error while sending your payment to MoIP. Please try again."
+        no_credits: "You don't have enough credits to back this project."
+        paypal_cancel: "Your PayPal payment was canceled. Please try again."
+        paypal_description: "Back project"
+        paypal_error: "Ooops. There was an error while sending your payment to PayPal. Please try again."
+        success: "Your back was successfully made. Thanks a lot!"
+      new:
+        cannot_back: "It's not possible to back this project right now. Please, back other projects."
+        header:
+          subtitle: "You are a few steps from making the difference and becoming part of this project."
+          title: "Oohh yeah!"
+        no_reward: "Merci. Je veux juste aider ce projet."
+        submit: "Review and proceed to checkout"
+        title: "Back %{name}"
+      review:
+        credits_notice_html: "This back will be payed with your credits. After the confirmation, you will have <strong>%{credits}</strong> in credits to back other projects."
+        error: "Ooops. There was an error while registering your back. Please try again."
+        international:
+          description: "You can use PayPal to make international payments"
+          important_html: "<p>The use of PayPal is destinated mostly for international payments. That's because you'll have only 60 days to receive an eventual refund without paying any fee.</p><p>In case you can make the regular payment through MoIP, we recommend you to do it.</p><p>But if that's not possible, don't worry: you'll always be able to receive your money back. Only, in case your refund is made more than 60 days after your payment, you'll have to pay PayPal's fee, which is 5,4% + EUR0,60 per transaction.</p>"
+          submit: "Proceed to PayPal's checkout"
+          title: "Want to make an international payment?"
+        review_with_reward_html: "You will back with <strong>%{value}</strong> and receive the following reward: <span class='reward'>%{reward}</span>"
+        review_without_reward_html: "You will back with <strong>%{value}</strong> but you don't want any reward for that."
+        submit:
+          credits: "Confirm backing with credits"
+          moip: "Proceed to MoIP's checkout"
+        subtitle: "This is the last step to make the difference and become part of this project."
+        title: "Fill in and review your data"
+        choose_payment: "Comment voulez-vous payer?"
+        choose_credit_card: "Carte de crédit"
+        choose_boleto: "Billet Banking"
+        you_are_about_html: "You are about to become part of the group that does everything to make %{link} happen."
+    create:
+      success: "Votre projet a été créé! Nous vous contacterons rapidement. Merci!"
+    form:
+      add_reward: "Ajouter une contrepartie"
+      important_html: "Merci de noter que Ride-lab.com prelève 5% de comission si votre projet est financé.Paypal prend également une comission d'environ 4% à 5%. Merci d'en tenir compte lors de la création de votre projet."
+      project_warning:
+        content_html: "Vous voulez que votre projet soit selectionné? N'oubliez pas lire %{link}."
+        help_link: "notre guide"
+      rewards_description: "We believe that the best way to inspire people to back a project is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
+      rewards_title: Rewards
+      submit: "Créer un projet"
+    index_header:
+      subtitle_html: "Fund projects collaboratively and become part of something bigger.<br/>Promote a collective catharsis! You're the missing part in this story."
+      title: "Make the projects you believe in happen"
+    new:
+      subtitle: "The time to make it happen is now! We really want to know what you're up to..."
+      title: "Soumettre votre projet"
+    pending:
+      can_finish: "Can finish?"
+      finished: Finished?
+      home_page: "Home page?"
+      id: Id
+      name: Name
+      no_projects: "Pas de projets trouvés."
+      order: Order
+      project: Project
+      slug: Slug
+      recommended: Recommended?
+      rejected: Rejected?
+      submit: Search
+      title: "Project management"
+      user: User
+      visible: Visible?
+    pending_backers:
+      anonymous: Anonymous?
+      confirmed: Confirmed?
+      credits: "Used credits?"
+      id: Id
+      key: Key
+      no_backers: "No backers found."
+      project: Project
+      refunded: Refunded?
+      requested_refund: "Demander un remboursement?"
+      reward: Reward
+      submit: Search
+      title: "Backers management"
+      total_backed: backed
+      total_backers: backers
+      total_backs: backs
+      total_users: users
+      user: User
+      value: Value
+    project:
+      backed: backed
+      reached: reached
+    project_backers:
+      empty: "Personne n'a encore soutenu ce projet. Voulez-vous être le premier?"
+    project_header:
+      subtitle_html: "Un projet de %{link}"
+      without_city: "Un projet dans %{category_name}, par %{author}"
+      with_city: "A project in %{category_name}, in %{city}, by %{author}"
+    project_updates:
+      empty: "Ce projet n'a pas encore de MAJ. Restez connecté :-)"
+      submit: "Envoyer la MAJ"
+      comment: "Texte de la MAJ"
+      title: "Titre de la MAJ"
+      destroy: "Supprimer la MAJ"
+      destroy_confirmation: "Voulez-vous supprimer la MAJ?"
+    rewards:
+      reward_title: "For %{minimum} or more"
+      title: "Back and receive..."
+    send_mail:
+      success: "Votre projet a été créé! Nous vous contacterons rapidement. Merci!!"
+    show:
+      rejected: "This project was not selected to participate on Ride-lab. Maybe next time! :)"
+      waiting: "This project is waiting for approval and soon we'll know if it will go online on Ride-lab;)"
+      about_title: "A propose de ce projet"
+      menu:
+        about: About
+        backers: Backers
+        comments: Comments
+        updates: Updates
+      share:
+        embed: embed
+        embed_title: "Partager ce projet sur votre site"
+        link: Link
+        link_title: "Partager le lien"
+        take_a_look: "Découvrez le projet"
+        title: "Be part of it and share this project"
+    start:
+      about: "Décrivez votre projet et le montant dont vous avez besoin."
+      category: "Catégorie"
+      how_much_you_need: "Quel montant voulez-vous lever?"
+      about_hint: "Tell us a little about what you want to do, how much you need and what for. Be brief and punctual, but don't forget to give the readers something that moves them. After all, it's your creation and they need to see your passion taking place!"
+      contact: "Laissez nous votre email pour que l'on puisse vous contacter."
+      links: "Where can we find more about you and your project?"
+      links_hint: "Leave us as many links as you have, so we can get to know your work and your project better. Doesn't have to be something formal or fancy, just a few useful links."
+      video: "Votre projet à déjà une vidéo?"
+      video_hint: "Lien Vimeo"
+      twitter: "Avez-vous un compte Twitter?"
+      facebook: "Avez-vous un compte Facebook?"
+      blog: "Avez-vous un blog traitant de votre projet?"
+      know_us_via: "Comment avez-vous connu Ride-lab.com?"
+      how_works: "How to mobilize backers to raise $ needed for enforcement?"
+      project_warning:
+        content_html: "Vous voulez que votre soit sélectionné ? n'oubliez pas de lire %{link}."
+        help_link: "notre guide"
+      rewards: "Quelles contreparties voulez-vous offrir?"
+      rewards_hint: "We believe that the best way to inspire people to back a project is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
+      submit: "Soumettre le projet"
+      subtitle: "The time to make it happen is now! We really want to know what you're up to..."
+      title: "Soumettre votre projet"
+    twitter:
+      take_a_look: "Check out the project %{name} on @Ride-lab"
+    video_embed:
+      a_project_by_html: "A project by %{link} on"
+  projects_mailer:
+    start_project_email:
+      subject: "Project sent by %{name}"
+      subject_html: "Project sent by %{link}"
+  registrations:
+    new:
+      site_title: "Sign up"
+      submit: "Sign Up"
+      title: "Sign up using you email"
+  remaining_plural: left
+  remaining_singular: left
+  remove: remove
+  require_admin: "You must be admin to perform this action."
+  require_login: "You must be logged in to perform this action."
+  require_permission: "You don't have permission to perform this action."
+  reward:
+    display_remaining: "%{remaining} of %{maximum} available"
+    dont_want: "I don't want a reward"
+    limited: Limited
+    sold_out: "Sold out"
+  sessions:
+    auth:
+      success: "Successfully logged in. Welcome, %{name}!"
+    destroy:
+      success: "Successfully logged out. See you!"
+    failure:
+      error: "There was an error while loggin in. Please try again."
+  site:
+    host: ride-lab.com
+    base_url: "http://ride-lab.com/"
+    blog: "http://www.blog.ride-lab.com"
+    email:
+      contact: contact@ride-lab.com
+      payments: finance@ride-lab.com
+      projects: projects@ride-lab.com
+      system: system@ride-lab.com
+    facebook: "http://www.facebook.com/pages/Ride-labcom/225103847583458"
+    name: Ride-lab.com
+    title: "Ride-lab.com crowdfunding"
+    twitter: ridelab
+  static:
+    faq:
+      title: "Frequent asked questions"
+    guidelines:
+      accept: "I have read and understood how Ride-lab works."
+      submit: "I want to submit my project"
+      subtitle: "Before submitting your project, learn a little about how Ride-lab works."
+      title: "How does Ride-lab work?"
+    privacy:
+      title: "Privacy Policy"
+    terms:
+      title: "Terms of use"
+  terms: "terms of use"
+  user:
+    backs_text:
+      many: "Backed this and other %{total} projects"
+      one: "Backed only this project until now"
+      two: "Backed this and 1 other project"
+    no_name: Unnamed
+  users:
+    show:
+      tabs:
+        backed_projects: "Projets soutenus"
+        created_projects: "Projets créés"
+        comments: Comments
+        credits: Credits
+        settings: Settings
+    backs:
+      anonymous: "Soutenir anonymement."
+      no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time! :D"
+      no_backs_current_user_html: "You haven't backed any project yet. What about <a href=\"/\">starting now</a>?"
+      no_reward: "You didn't pick a reward"
+      title: "Projects %{name} has backed"
+      title_current_user: "Projets que j'ai soutenu"
+      your_reward: "Your reward"
+    current_user_fields:
+      updated: "Vos infos sont mises à jour."
+      update_social_info: "Update info"
+      social_info: "Contact info"
+      twitter: "twitter ( nom d'utilisateur )"
+      facebook_link: "Lien vers votre profil Facebook"
+      other_link: "Une autre page internet ?"
+      change_password: "Changer mon mot de passe"
+      current_password_hint: "<i>Nous avons besoin de votre mot de passe actuel pour le changer.</i>"
+      email_hint: "Your email will only be used for communications from Ride-lab and from the projects you back. It won't be visible in your profile. When you back a project, we will give your email to the project owner so he can provide your rewards."
+      email_tooltip: "Cliquer ici pour remplir votre email..."
+      gravatar_hint_html: "Want to change your picture? Use %{link} with your email. It's as simple as uploading an image and works for other sites as well ;)"
+      my_data: "Mon profil"
+      newsletter: "Je veux recevoir les news de Ride-lab par email"
+      password_hint: "<i>Laisser vide si vous ne voulez rien changer.</i>"
+    header:
+      bio_tooltip: "Parlez nous de vous..."
+      name_tooltip: "Votre nom ?"
+    projects:
+      no_projects: "%{name} haven't started any project on Ride-lab yet. We wonder if inspiration will hit one of these days!"
+      no_projects_current_user_html: "Vous n'avez pas créé de projet sur Ride-lab.com. Let the inspiration flow and %{link} to start!"
+      title: "%{name}'s projects"
+      title_current_user: "Mes projets"
+  users_mailer:
+    notification_email:
+      alt: "Vous devez afficher les images pour voir correctement cet email."
+      forward: "Transmettre à vos amis"
+      hello: Hi
+      intro: "Vous recevez ce message car vous êtes inscrits sur Ride-lab.com"
+      mailee: "Message delivered by Mailee.me"
+      salutation: "Big hugs,"
+      signature: "Ride-lab's Team"
+      unsubscribe: Unsubscribe
+      unsubscribe_long: "Si vous ne souhaitez pas recevoir ces emails"
+      weblink: "View on the web"
+      whitelist: "Ajouter contact"
+      whitelist_long: "Ajouter notre email à vos contacts"
