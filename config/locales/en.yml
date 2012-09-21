@@ -4,6 +4,7 @@ en:
   newsletter_ok_body: "Your email is now in our newsletter list, thanks for subscribing!"
   newsletter_error_header: "Woops! There was an error."
   newsletter_error_body: "Your email could not be added to our newsletter list, please try again later!"
+  newsletter_subscribe: "Subscribe"
   views:
     pagination:
       next: next
@@ -25,7 +26,7 @@ en:
       info: "Useful Information"
       opendata: "nice statistics"
       social: "like the catarse?"
-      newsletter: "receive our newslatter"
+      newsletter: "receive our newsletter"
     stats:
       backers: Backers
       backs: Backs
