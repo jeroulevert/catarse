@@ -4,6 +4,7 @@ fr:
   newsletter_ok_body: "Votre email est maintenant dans notre mailing liste, merci!"
   newsletter_error_header: "Woops! Il y a eu une erreur."
   newsletter_error_body: "Votre email ne peut pas être ajouté actuellement, merci de rééssayer plus tard!"
+  newsletter_subscribe: "s'abonner"
   views:
     pagination:
       next: next

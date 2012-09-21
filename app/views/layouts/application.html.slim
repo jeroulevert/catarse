@@ -53,7 +53,7 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
                 h5= number_to_currency @total_backed, :unit => 'EUR', :precision => 0, :delimiter => '.'
                 p= t('footer.stats.total_backed')
               li
-                h5= @total_backed
+                h5= User.count
                 p= t('footer.stats.users')
               li
                 h5= @total_projects_success
