@@ -90,26 +90,26 @@ fr:
         maximum_backers: "Nombre maximum de soutiens"
         minimum_value: "Montant minimum"
       user:
-        address_city: City
-        address_complement: Complement
+        address_city: Ville
+        address_complement: Complément
         address_neighbourhood: Neighbourhood
         address_number: Number
         address_state: State
-        address_street: Street
+        address_street: Rue
         address_zip_code: "Code postal"
         cpf: CPF
         current_password: "Mot de passe actuel"
         email: Email
         full_name: "Nom"
         name: Name
-        password: Password
+        password: Mot de passe
         password_confirmation: "Confirmation du mot de passe"
         phone_number: "N° téléphone mobile"
     models:
       backer: Backer
-      category: Category
-      project: Project
-      reward: Reward
+      category: Categorie
+      project: Projet
+      reward: Contrepartie
   backer:
     display_confirmed_at: "%{time_ago} ago"
     reward_must_be_from_project: "doit être du même projet"
@@ -125,7 +125,7 @@ fr:
     index:
       back_date: "Back date"
       current_credits_html: "Votre balance actuelle est de <span id=\"current_credits\">%{credits}</span> crédits."
-      important_html: "You have <strong>up to 180 days after the payment date</strong> to ask for a refund. If you ask for a refund, the value of your payment will be deducted from your credits."
+      important_html: "Vous avez <strong>180 jours après votre paiement</strong> pour demander un remboursement. Si vous demandez un remboursement, la totalité de vos crédits vous seront remboursés."
       project: Project
       refund_expration_date: "Date limite de remboursement"
       refunded: Refunded
