@@ -373,10 +373,10 @@ fr:
           title: "Oohh yeah!"
         no_reward: "Merci. Je veux juste aider ce projet."
         submit: "Review and proceed to checkout"
-        title: "Back %{name}"
+        title: "Soutien %{name}"
       review:
-        credits_notice_html: "This back will be payed with your credits. After the confirmation, you will have <strong>%{credits}</strong> in credits to back other projects."
-        error: "Ooops. There was an error while registering your back. Please try again."
+        credits_notice_html: "Ce soutien a été payé avec vos crédits. Après confirmation, vous aurez <strong>%{credits}</strong> crédits pour soutenir d'autres projets."
+        error: "Ooops. Une erreur s'est produite lors de votre paiement. Merci de réessayer."
         international:
           description: "You can use PayPal to make international payments"
           important_html: "<p>The use of PayPal is destinated mostly for international payments. That's because you'll have only 60 days to receive an eventual refund without paying any fee.</p><p>In case you can make the regular payment through MoIP, we recommend you to do it.</p><p>But if that's not possible, don't worry: you'll always be able to receive your money back. Only, in case your refund is made more than 60 days after your payment, you'll have to pay PayPal's fee, which is 5,4% + EUR0,60 per transaction.</p>"
