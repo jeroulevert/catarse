@@ -273,20 +273,20 @@ fr:
       remember_me: "Je veux rester connecté."
     header:
       blog: blog
-      help: help
+      help: aide
       signup: "s'enregistrer"
-      signin: login
-      explore: explore
-      submit_project: submit
+      signin: connexion
+      explore: explorer
+      submit_project: soumettre
       profile: "mon profil"
       account: "mon compte"
     user:
-      logout: Logout
+      logout: Se déconnecter
       my_credits: "Mes crédits"
   not_informed: "pas informé"
-  notify_locale: "We identified your language by your browser. If you prefer another one, click on one of the flags on the right."
+  notify_locale: "D'après votre navigateur, vous préférez les sites affichés en Français ;-). Vous pouvez sélectionner une autre langue à droite."
   on_the_spot:
-    cancel: Cancel
+    cancel: Annuler
     ok: OK
     tooltip: "Cliquer pour modifier..."
   passwords:
@@ -306,7 +306,7 @@ fr:
   payment_stream:
     thank_you:
       error: "Ooops. Vous ne pouvez accéder à cette page uniquement après avoir soutenu ce projet."
-      header_subtitle: "Without you maybe this project wouldn't stand a chance. Welcome to the team!"
+      header_subtitle: "Sans vous, ce projet n'avait peut être aucune chance d'aboutir. Bienvenue dans l'aventure!"
       header_title: "Merci! :D"
       text_subtitle: "Dites à tout le monde ce que vous venez de faire"
       text_title_html: "You are now part of the group that does everything to make %{link} happen."
