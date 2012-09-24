@@ -355,19 +355,19 @@ fr:
       reached_of: "Reached of"
       submit: "Soutenir ce projet"
     backer:
-      anonymous_backer: "Anonymous backer"
+      anonymous_backer: "Soutien anonyme"
       anonymous_description: "Opted to remain incognito"
-      no_reward: "This backer has not picked a reward"
+      no_reward: "Cet utilisateur n'a pas choisi de contrepartie"
     backers:
       checkout:
         moip_error: "Ooops. There was an error while sending your payment to MoIP. Please try again."
-        no_credits: "You don't have enough credits to back this project."
-        paypal_cancel: "Your PayPal payment was canceled. Please try again."
-        paypal_description: "Back project"
-        paypal_error: "Ooops. There was an error while sending your payment to PayPal. Please try again."
-        success: "Your back was successfully made. Thanks a lot!"
+        no_credits: "Vous n'avez pas assez de crédits pour soutenir ce projet."
+        paypal_cancel: "Votre paiement a été annulé. Merci de réessayer"
+        paypal_description: "Soutenir le projet"
+        paypal_error: "Ooops. Il y eu un problème avec votre paiement. Merci de réessayer."
+        success: "Merci pour le soutien de ce projet!"
       new:
-        cannot_back: "It's not possible to back this project right now. Please, back other projects."
+        cannot_back: "Il n'est pas possible de soutenir ce projet actuellement."
         header:
           subtitle: "You are a few steps from making the difference and becoming part of this project."
           title: "Oohh yeah!"
