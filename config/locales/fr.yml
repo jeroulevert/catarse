@@ -36,9 +36,9 @@ fr:
       active_projects: "Projets populaires"
     links:
       how_works: "Fonctionnement"
-      faq: F.A.Q./Aide
+      faq: FAQ/Aide
       terms: "C.G.U."
-      policy: "Privacy Policy"
+      policy: "Mentions légales"
       contact: Contact
   main:
     links:
@@ -54,16 +54,16 @@ fr:
       faq: "Vous avez un doute?"
       schedule: calendar
     buttons:
-      newsletter: submit
+      newsletter: soumettre
   sections:
     selection:
-      title: selection
+      title: sélection
     expiring:
-      title: expiring
+      title: se terminant
     recents:
-      title: recents
+      title: récents
     partners:
-      title: partners
+      title: partenaires
   "no": "Non"
   "yes": "Oui"
   accept_terms_html: "J'ai lu et accepté les %{link}."
