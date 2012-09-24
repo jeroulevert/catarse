@@ -463,22 +463,22 @@ fr:
       destroy_confirmation: "Voulez-vous supprimer la MAJ?"
     rewards:
       reward_title: "For %{minimum} or more"
-      title: "Back and receive..."
+      title: "Soutenir et recevoir..."
     send_mail:
       success: "Votre projet a été créé! Nous vous contacterons rapidement. Merci!!"
     show:
-      rejected: "This project was not selected to participate on Ride-lab. Maybe next time! :)"
-      waiting: "This project is waiting for approval and soon we'll know if it will go online on Ride-lab;)"
-      about_title: "A propose de ce projet"
+      rejected: "Ce projet n'est pas selectionné. Peut être une autre fois!"
+      waiting: "Ce projet est en attente de validation par l'équipe de Ride-lab.com"
+      about_title: "A propos de ce projet"
       menu:
-        about: About
-        backers: Backers
-        comments: Comments
-        updates: Updates
+        about: Projet
+        backers: Soutiens
+        comments: Commentaires
+        updates: MAJ
       share:
-        embed: embed
+        embed: Partager
         embed_title: "Partager ce projet sur votre site"
-        link: Link
+        link: Lien
         link_title: "Partager le lien"
         take_a_look: "Découvrez le projet"
         title: "Be part of it and share this project"
@@ -486,11 +486,11 @@ fr:
       about: "Décrivez votre projet et le montant dont vous avez besoin."
       category: "Catégorie"
       how_much_you_need: "Quel montant voulez-vous lever?"
-      about_hint: "Tell us a little about what you want to do, how much you need and what for. Be brief and punctual, but don't forget to give the readers something that moves them. After all, it's your creation and they need to see your passion taking place!"
+      about_hint: "Parlez-nous de votre projet. Détaillez au maximum, l'utilisateur doit voir votre passion à travers votre projet!"
       contact: "Laissez nous votre email pour que l'on puisse vous contacter."
-      links: "Where can we find more about you and your project?"
-      links_hint: "Leave us as many links as you have, so we can get to know your work and your project better. Doesn't have to be something formal or fancy, just a few useful links."
-      video: "Votre projet à déjà une vidéo?"
+      links: "Où pouvouns-nous trouver d'autres infos sur votre projet?"
+      links_hint: "Donnez-nous le maximum de liens."
+      video: "Votre projet a t'il une vidéo?"
       video_hint: "Lien Vimeo"
       twitter: "Avez-vous un compte Twitter?"
       facebook: "Avez-vous un compte Facebook?"
@@ -501,34 +501,34 @@ fr:
         content_html: "Vous voulez que votre soit sélectionné ? n'oubliez pas de lire %{link}."
         help_link: "notre guide"
       rewards: "Quelles contreparties voulez-vous offrir?"
-      rewards_hint: "We believe that the best way to inspire people to back a project is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
+      rewards_hint: "La meilleure façon d'inciter les utilisateurs à financer votre projet est de proposer des contreparties uniques. Tout le monde aime les éditions limitées, les expériences uniques etc. Soyez créatif !"
       submit: "Soumettre le projet"
       subtitle: "The time to make it happen is now! We really want to know what you're up to..."
       title: "Soumettre votre projet"
     twitter:
       take_a_look: "Check out the project %{name} on @Ride-lab"
     video_embed:
-      a_project_by_html: "A project by %{link} on"
+      a_project_by_html: "Un projet de %{link}"
   projects_mailer:
     start_project_email:
-      subject: "Project sent by %{name}"
-      subject_html: "Project sent by %{link}"
+      subject: "Projet créé par %{name}"
+      subject_html: "Projet créé par %{link}"
   registrations:
     new:
-      site_title: "Sign up"
-      submit: "Sign Up"
-      title: "Sign up using you email"
+      site_title: "S'enregistrer"
+      submit: "S'enregistrer"
+      title: "S'enregistrer en utilisant votre email"
   remaining_plural: left
   remaining_singular: left
   remove: remove
   require_admin: "You must be admin to perform this action."
-  require_login: "You must be logged in to perform this action."
+  require_login: "Vous devez être connecté."
   require_permission: "You don't have permission to perform this action."
   reward:
     display_remaining: "%{remaining} of %{maximum} available"
-    dont_want: "I don't want a reward"
+    dont_want: "Je ne veux pas de contrepartie"
     limited: Limited
-    sold_out: "Sold out"
+    sold_out: "Epuisé"
   sessions:
     auth:
       success: "Successfully logged in. Welcome, %{name}!"
