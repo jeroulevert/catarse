@@ -43,8 +43,8 @@ fr:
   main:
     links:
       selected: "Voir plus de projets recommandés"
-      expiring: "explore more expiring projects"
-      recents: "Voir plus de récents projets"
+      expiring: "Voir plus de projets se terminant"
+      recents: "Voir plus de projets récents"
   sidebar:
     titles:
       blog: blog
@@ -583,7 +583,7 @@ fr:
       no_reward: "You didn't pick a reward"
       title: "Projects %{name} has backed"
       title_current_user: "Projets que j'ai soutenu"
-      your_reward: "Your reward"
+      your_reward: "Votre contrepartie"
     current_user_fields:
       updated: "Vos infos sont mises à jour."
       update_social_info: "Update info"
@@ -614,7 +614,7 @@ fr:
       hello: Hi
       intro: "Vous recevez ce message car vous êtes inscrits sur Ride-lab.com"
       mailee: "Message delivered by Mailee.me"
-      salutation: "Big hugs,"
+      salutation: "Sportivement,"
       signature: "Ride-lab's Team"
       unsubscribe: Unsubscribe
       unsubscribe_long: "Si vous ne souhaitez pas recevoir ces emails"
