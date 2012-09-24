@@ -212,7 +212,7 @@ fr:
       signed_out: "Vous êtes déconnecté."
     unlocks:
       send_instructions: "Vous allez recevoir un email vous expliquant comment débloquer votre compte."
-      send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
+      send_paranoid_instructions: "Si votre compte existe, vous allez recevoir un email avec les instructions pour débloquer votre compte."
       unlocked: "Votre compte est débloqué. Vous êtes maintenant connecté."
   error: "Ooops! Il y a eu une erreur. Merci de réessayer."
   explore:
@@ -220,8 +220,8 @@ fr:
       categories: Categories
       expiring: "Compte à rebours"
       quick_explore: "Recherche"
-      recent: Recent
-      recommended: Recommended
+      recent: Récent
+      recommended: Recommandé
       subtitle: "Découvrez les projets, choisissez ceux qui vous touchent, et faites les se réaliser!"
       successful: Successful
       title: "Découvrir des projets étonnants"
@@ -262,8 +262,8 @@ fr:
       reward:
         maximum_backers: "Nombre maximum de soutiens (optionnel)"
     optional: " (optionnel)"
-  found_plural: Found
-  found_singular: Found
+  found_plural: Trouvé
+  found_singular: Trouvé
   here: here
   i_backed: "Je soutiens le projet %{name} sur @Ridelab"
   i_just_backed: "Je viens de soutenir le projet %{name} sur @Ridelab"
