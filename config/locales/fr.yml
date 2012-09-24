@@ -319,11 +319,11 @@ fr:
     finish:
       successful:
         email_subject: "Hey! Le projet que vous avez soutenu sur Ride-lab.com est validé!"
-        email_text: "The project %{project_link}, which you backed, was successfuly funded on Ride-lab! Time to celebrate :D<br><br>Thank you very much, from the heart, for your support! Without you this would never have been possible. Soon, %{user_link} will contact you to deliver your reward. Meanwhile, share with everybody this success!"
-        facebook_text: "Hooray! The project '%{name}', which I backed, was successful on Ride-lab!"
+        email_text: "Le projet %{project_link}, que vous avez soutenu, est financé sur Ride-lab! Time to celebrate :D<br><br>Thank you very much, from the heart, for your support! Without you this would never have been possible. Soon, %{user_link} will contact you to deliver your reward. Meanwhile, share with everybody this success!"
+        facebook_text: "Hey! Le projet '%{name}', que j'ai soutenu, est financé sur Ride-lab!"
         notification_text: "Hooray! The project %{link} that you backed was successful! Spread the word!"
         reward_notification_text: "Soon, %{link} will contact you to deliver your reward. Enjoy!"
-        twitter_text: "Hooray! The project '%{name}', which I backed, was successful on @ridelab! %{short_url}"
+        twitter_text: "Hey! Le projet '%{name}', que j'ai soutenu, est financé sur @ridelab! %{short_url}"
       unsuccessful:
         email_subject: "Le projet que vous avez soutenu sur Ride-lab.com est validé."
         email_text: "Le projet %{project_link}, que vous avez soutenu, n'est pas financé. Peut être une autre fois!<br><br>Vous recevez <strong>%{value}</strong> crédits pour soutenir d'autres projets. Si vous le souhaitez, vous pouvez demander un remboursement %{credits_link}."
@@ -334,7 +334,7 @@ fr:
     display_status:
       expired: "non financé"
       successful: financé
-      waiting_confirmation: waiting
+      waiting_confirmation: en attente
   projects:
     recommended_header:
       sugest_for_you: "Suggestion pour vous"
@@ -342,16 +342,16 @@ fr:
     box:
       by: by
     admin_fields:
-      title: "Admin fields"
+      title: "Champs administrateur"
     back_project:
       project_warning:
         not_successful:
-          expired: "This project didn't reach the goal of %{goal} until %{date} and wasn't funded"
-          not_expired: "This project will only be funded if at least %{goal} is backed until %{date}"
+          expired: "Ce projet n'a pas atteint le montant de %{goal} avant le %{date} et n'est pas validé"
+          not_expired: "Ce projet sera financé seulement s'il atteint %{goal} de soutien avant le %{date}"
         successful:
-          expired: "This project was successful and was funded on %{date}"
-          not_expired: "This project will be successful and funded on %{date}"
-        waiting_confirmation: "Waiting confirmation from payments to know if this project will be funded."
+          expired: "Ce projet est validé et a été financé le %{date}"
+          not_expired: "Ce projet sera financé et se termine le %{date}"
+        waiting_confirmation: "En attente des confirmations de paiements pour valdier le projet."
       reached_of: "Reached of"
       submit: "Soutenir ce projet"
     backer:
