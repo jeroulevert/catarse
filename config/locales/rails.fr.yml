@@ -74,27 +74,27 @@ fr:
         one: "moins d'une seconde"
         other: "moins de %{count} secondes"
       over_x_years:
-        one: "more than 1 year"
-        other: "more than %{count} years"
+        one: "plus d'un an"
+        other: "plus de %{count} ans"
       x_days:
-        one: "1 day"
-        other: "%{count} days"
+        one: "1 jour"
+        other: "%{count} jours"
       x_minutes:
         one: "1 minute"
         other: "%{count} minutes"
       x_months:
-        one: "1 mês"
-        other: "%{count} months"
+        one: "1 mois"
+        other: "%{count} mois"
       x_seconds:
-        one: "1 segundo"
-        other: "%{count} seconds"
+        one: "1 seconde"
+        other: "%{count} secondes"
     prompts:
-      day: Day
-      hour: Hour
+      day: Jour
+      hour: Heure
       minute: Minute
-      month: Month
-      second: Second
-      year: Year
+      month: Mois
+      second: Seconde
+      year: An
   errors: &errors
     format: "%{attribute} %{message}"
     messages:
