@@ -28,16 +28,16 @@ en:
       send_instructions: 'Un email va vous être envoyé avec les instructions pour réinitialiser votre mot de passe.'
       updated: 'Votre mot de passe a été modifié. Vous êtes connecté'
       updated_not_active: 'Votre mot de passe a été modifié.'
-      send_paranoid_instructions: "If your e-mail exists on our database, you will receive a password recovery link on your e-mail"
+      send_paranoid_instructions: "Si vous êtes enregistré sur Ride-lab.com, vous allez recevoir un email pour réinitialiser votre mot de passe."
     confirmations:
-      send_instructions: 'You will receive an email with instructions about how to confirm your account in a few minutes.'
-      send_paranoid_instructions: 'If your e-mail exists on our database, you will receive an email with instructions about how to confirm your account in a few minutes.'
-      confirmed: 'Your account was successfully confirmed. You are now signed in.'
+      send_instructions: 'Vous allez recevoir un email vous expliquant comment confirmer votre compte.'
+      send_paranoid_instructions: 'Si vous êtes enregistré sur Ride-lab.com, vous allez recevoir un email vous expliquant comment confirmer votre compte.'
+      confirmed: 'Votre compte est confirmé. Vous êtes connecté.'
     registrations:
-      signed_up: 'Welcome! You have signed up successfully.'
-      inactive_signed_up: 'You have signed up successfully. However, we could not sign you in because your account is %{reason}.'
-      updated: 'You updated your account successfully.'
-      destroyed: 'Bye! Your account was successfully cancelled. We hope to see you again soon.'
+      signed_up: 'Bienvenue ! Vous êtes connecté.'
+      inactive_signed_up: 'Vous vous êtes enregistré. Cependant, vous ne pouvez pas encore vous connecter car votre compte est %{reason}.'
+      updated: 'Vous avez mis à jour votre compte.'
+      destroyed: 'Bye! Votre compte est effacé. Nous espérons vous revoir bientôt.'
       reasons:
         inactive: 'inactive'
         unconfirmed: 'unconfirmed'
