@@ -14,13 +14,13 @@ en:
   devise:
     failure:
       already_authenticated: 'Vous êtes déjà connecté.'
-      unauthenticated: 'You need to sign in or sign up before continuing.'
-      unconfirmed: 'You have to confirm your account before continuing.'
-      locked: 'Your account is locked.'
-      invalid: 'Invalid email or password.'
+      unauthenticated: 'Vous devez vous connecter avant de poursuivre.'
+      unconfirmed: 'Vous devez confirmer votre compte avant de pouvoir continuer.'
+      locked: 'Votre compte est bloqué.'
+      invalid: 'Email ou mot de passe invalide.'
       invalid_token: 'Invalid authentication token.'
-      timeout: 'Your session expired, please sign in again to continue.'
-      inactive: 'Your account was not activated yet.'
+      timeout: 'Votre session a expirée. Merci de vous reconnecter.'
+      inactive: 'Votre compte est inactif.'
     sessions:
       signed_in: 'Signed in successfully.'
       signed_out: 'Signed out successfully.'
