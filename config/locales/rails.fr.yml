@@ -126,11 +126,11 @@ fr:
         other: "Impossible d'écrire %{model}: %{count} erreurs."
   helpers:
     select:
-      prompt: "Please select"
+      prompt: "Merci de sélectionner"
     submit:
-      create: "Create %{model}"
+      create: "Créé %{model}"
       submit: "Submit %{model}"
-      update: "Update %{model}"
+      update: "MAJ %{model}"
   number:
     currency:
       format:
