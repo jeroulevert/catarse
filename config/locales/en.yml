@@ -17,15 +17,15 @@ en:
       subtitle: "total of %{total}"
   project_by: "project by"
   tell_about_this_back: "Tell the world about your support!"
-  share_my_backs: "See the projects that i support in Catarse!"
+  share_my_backs: "See the projects that i support in Ride-lab.com!"
   tell_about_this_project: "Tell the world about your project!"
-  share_my_projects: "See my created projects in Catarse!"
+  share_my_projects: "See my created projects in Ride-lab.com!"
   count_backed_projects: "backed %{total} projects"
   footer:
     titles:
       info: "Useful Information"
       opendata: "nice statistics"
-      social: "like the catarse?"
+      social: "like Ride-lab.com ?"
       newsletter: "receive our newsletter"
     stats:
       backers: Backers
@@ -265,8 +265,8 @@ en:
   found_plural: Found
   found_singular: Found
   here: here
-  i_backed: "I backed the project %{name} on @Catarse_"
-  i_just_backed: "I just backed the project %{name} on @Catarse_"
+  i_backed: "I backed the project %{name} on @ridelab"
+  i_just_backed: "I just backed the project %{name} on @ridelab"
   layouts:
     login:
       login_with_facebook: "sign in with your facebook account"
@@ -313,12 +313,12 @@ en:
       title: "Thank you"
   project:
     start:
-      email_subject: "Your project has been received by Catarse's team"
-      email_text: "Thanks for trusting your project to Catarse :)<br><br>We know that you expect a quick reply but, to be quite frank, we take up to 4 days to resnpond, ok? That is because we have a small team working on several projects. Note that the reply can come sooner, so keep atention to your inbox.<br><br>Meanwhile it is worth to get to know the projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them- back it! This is the way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around Catarse.<br><br>Besides that, you will get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about Catarse reading the posts in our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, send an email to: %{email}"
-      notification_text: "Your project has been received by Catarse's team"
+      email_subject: "Your project has been received by Ride-lab's team"
+      email_text: "Thanks for trusting your project to Ride-lab.com :)<br><br>We know that you expect a quick reply but, to be quite frank, we take up to 4 days to resnpond, ok? That is because we have a small team working on several projects. Note that the reply can come sooner, so keep atention to your inbox.<br><br>Meanwhile it is worth to get to know the projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them- back it! This is the way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around Catarse.<br><br>Besides that, you will get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about Catarse reading the posts in our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, send an email to: %{email}"
+      notification_text: "Your project has been received by Ride-lab's team"
     finish:
       successful:
-        email_subject: "Hooray! The project you backed was successful on Catarse!"
+        email_subject: "Hooray! The project you backed was successful on Ride-lab.com!"
         email_text: "The project %{project_link}, which you backed, was successfuly funded on Catarse! Time to celebrate :D<br><br>Thank you very much, from the heart, for your support! Without you this would never have been possible. Soon, %{user_link} will contact you to deliver your reward. Meanwhile, share with everybody this success!"
         facebook_text: "Hooray! The project '%{name}', which I backed, was successful on Catarse!"
         notification_text: "Hooray! The project %{link} that you backed was successful! Spread the word!"
