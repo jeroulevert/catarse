@@ -1,136 +1,136 @@
 fr:
   date:
     abbr_day_names:
-      - Sun
-      - Mon
-      - Tue
-      - Wed
-      - Thu
-      - Fri
-      - Sat
+      - Dim
+      - Lun
+      - Mar
+      - Mer
+      - Jeu
+      - Ven
+      - Sam
     abbr_month_names:
       - ~
       - Jan
-      - Feb
+      - Fev
       - Mar
-      - Apr
-      - May
-      - Jun
-      - Jul
-      - Aug
+      - Avr
+      - Mai
+      - Jui
+      - Jui
+      - Aou
       - Sep
       - Oct
       - Nov
       - Dec
     day_names:
-      - Sunday
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-      - Saturday
+      - Dimanche
+      - Lundi
+      - Mardi
+      - Mercredi
+      - Jeudi
+      - Vendredi
+      - Samedi
     formats:
       default: "%d/%m/%Y"
       long: %B "%d  %Y"
       short: %B "%d"
     month_names:
       - 
-      - January
-      - February
-      - March
-      - April
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+      - Janvier
+      - Février
+      - Mars
+      - Avril
+      - Mai
+      - Juin
+      - Juillet
+      - Aout
+      - Septembre
+      - Octobre
+      - Novembre
+      - Decembre
     order:
-      - :month
-      - :day
-      - :year
+      - :mois
+      - :jour
+      - :année
   datetime:
     distance_in_words:
       about_x_hours:
-        one: "approximately 1 hour"
-        other: "approximately %{count} hours"
+        one: "approximativement 1 heure"
+        other: "approximativement %{count} heures"
       about_x_months:
-        one: "approximately 1 month"
-        other: "approximately %{count} months"
+        one: "approximativement 1 mois"
+        other: "approximativement %{count} mois"
       about_x_years:
-        one: "approximately 1 year"
-        other: "approximately %{count} years"
+        one: "approximativement 1 an"
+        other: "approximativement %{count} ans"
       almost_x_years:
         one: "almost 1 ano"
         other: "almost %{count} years"
-      half_a_minute: "thirty seconds"
+      half_a_minute: "30 secondes"
       less_than_x_minutes:
-        one: "less than a minute"
-        other: "less than %{count} minutes"
+        one: "moins d'une minute"
+        other: "moins de %{count} minutes"
       less_than_x_seconds:
-        one: "less than 1 segundo"
-        other: "less than %{count} seconds"
+        one: "moins d'une seconde"
+        other: "moins de %{count} secondes"
       over_x_years:
-        one: "more than 1 year"
-        other: "more than %{count} years"
+        one: "plus d'un an"
+        other: "plus de %{count} ans"
       x_days:
-        one: "1 day"
-        other: "%{count} days"
+        one: "1 jour"
+        other: "%{count} jours"
       x_minutes:
         one: "1 minute"
         other: "%{count} minutes"
       x_months:
-        one: "1 mês"
-        other: "%{count} months"
+        one: "1 mois"
+        other: "%{count} mois"
       x_seconds:
-        one: "1 segundo"
-        other: "%{count} seconds"
+        one: "1 seconde"
+        other: "%{count} secondes"
     prompts:
-      day: Day
-      hour: Hour
+      day: Jour
+      hour: Heure
       minute: Minute
-      month: Month
-      second: Second
-      year: Year
+      month: Mois
+      second: Seconde
+      year: An
   errors: &errors
     format: "%{attribute} %{message}"
     messages:
-      accepted: "must be accepted"
-      blank: "cannot be blank"
-      confirmation: "doesn't match"
-      empty: "cannot be empty"
-      equal_to: "must equal %{count}"
+      accepted: "doit être accepé"
+      blank: "ne peut pas être vide"
+      confirmation: "ne correspond pas"
+      empty: "ne peut pas être vide"
+      equal_to: "doit être égal à %{count}"
       even: "must be even"
-      exclusion: "not available"
-      greater_than: "must be greater than %{count}"
-      greater_than_or_equal_to: "must be greater than or equal to %{count}"
+      exclusion: "non disponible"
+      greater_than: "doit être supérieur à %{count}"
+      greater_than_or_equal_to: "doit être supérieur ou égal à %{count}"
       inclusion: "is not included in the list"
-      invalid: "isn't valid"
-      less_than: "must be less than %{count}"
-      less_than_or_equal_to: "must be less than or equal to %{count}"
-      not_a_number: "not a number"
-      not_an_integer: "isn't an integer"
-      odd: "must be odd"
-      record_invalid: "validation failed: %{errors}"
-      taken: "is already taken"
-      too_long: "is too long (max: %{count} characters)"
-      too_short: "is too short (min: %{count} characters)"
-      wrong_length: "isn't the expected size (%{count} characters)"
+      invalid: "n'est pas valide"
+      less_than: "doit être inférieur à %{count}"
+      less_than_or_equal_to: "doit être inférieur ou égal à %{count}"
+      not_a_number: "pas un nombre"
+      not_an_integer: "n'est pas un nombre entier"
+      odd: "doit être impair"
+      record_invalid: "échec de la validation : %{errors}"
+      taken: "est déjà pris"
+      too_long: "est trop long (max: %{count} caractères)"
+      too_short: "est trop court (min: %{count} caractères)"
+      wrong_length: "n'a pas la bonne taille (%{count} caractères)"
     template:
-      body: "Please check the following fields:"
+      body: "Merci de vérifier les champs suivants:"
       header:
-        one: "Couldn't write %{model}: 1 error"
-        other: "Couldn't write %{model}: %{count} errors."
+        one: "Impossible d'écrire %{model}: 1 erreur"
+        other: "Impossible d'écrire %{model}: %{count} erreurs."
   helpers:
     select:
-      prompt: "Please select"
+      prompt: "Merci de sélectionner"
     submit:
-      create: "Create %{model}"
+      create: "Créé %{model}"
       submit: "Submit %{model}"
-      update: "Update %{model}"
+      update: "MAJ %{model}"
   number:
     currency:
       format:
