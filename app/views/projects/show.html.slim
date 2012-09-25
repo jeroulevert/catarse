@@ -12,6 +12,8 @@
   meta property="og:description" content=@project.headline
   meta property="fb:admins" content="#{fb_admins}"
 
+= render 'facebook_sdk'
+
 #page_content
   .container
     - unless @project.visible?
