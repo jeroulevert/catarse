@@ -78,11 +78,11 @@ class Project < ActiveRecord::Base
   end
 
   def display_pledged
-    number_to_currency pledged, :precision => 0
+    number_to_currency pledged, :precision => 0, :currency => 'EUR'
   end
 
   def display_goal
-    number_to_currency goal, :precision => 0
+    number_to_currency goal, :precision => 0, :currency => 'EUR'
   end
 
   def pledged
