@@ -59,7 +59,7 @@
           - @last_tweets.each do |tweet|
             p= tweet['text']
           = link_to "Follow @#{t('site.twitter')}", "http://twitter.com/#{t('site.twitter')}", :class => 'twitter-follow-button', :"data-show-count" => "false" , :"data-button"=>"blue", :"data-text-color" => "#ffffff", :"data-link-color"=>"#fffffff", :"data-width" => "224px"
-        .newsletter
+        / .newsletter
           h3= t('sidebar.titles.newsletter')
           = form_tag 'http://catarse.mailee.me/go/add_contact_form', id: 'mailee-form', method: 'post' do
             = hidden_field_tag 'key', '13122d'
