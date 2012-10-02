@@ -14,7 +14,7 @@ fr:
     backers:
       subtitle: backers
     goal:
-      subtitle: "total de %{total}"
+      subtitle: "sur %{total}"
   project_by: "projet par"
   tell_about_this_back: "Partager!"
   share_my_backs: "Voir les projets que je supporte sur Ride-lab!"
@@ -462,7 +462,7 @@ fr:
       destroy: "Supprimer la MAJ"
       destroy_confirmation: "Voulez-vous supprimer la MAJ?"
     rewards:
-      reward_title: "For %{minimum} or more"
+      reward_title: "Pour %{minimum} ou plus"
       title: "Soutenir et recevoir..."
     send_mail:
       success: "Votre projet a été créé! Nous vous contacterons rapidement. Merci!!"
