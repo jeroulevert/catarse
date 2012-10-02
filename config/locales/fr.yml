@@ -28,17 +28,17 @@ fr:
       social: "Vous aimez Ride-lab.com?"
       newsletter: "Recevoir notre newsletter"
     stats:
-      backers: Backers
-      backs: Backs
-      total_backed: Backed
-      users: Users
+      backers: Supporters
+      backs: Soutiens
+      total_backed: de soutien
+      users: Utilisateurs
       funded_projects: "Projets financés"
       active_projects: "Projets populaires"
     links:
       how_works: "Fonctionnement"
       faq: FAQ/Aide
       terms: "C.G.U."
-      policy: "Mentions légales"
+      policy: "Confidentialité"
       contact: Contact
   main:
     links:
