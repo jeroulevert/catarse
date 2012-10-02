@@ -20,7 +20,7 @@ fr:
   share_my_backs: "Voir les projets que je supporte sur Ride-lab!"
   tell_about_this_project: "Partager!"
   share_my_projects: "Voir mes projets sur Ride-lab!"
-  count_backed_projects: "backed %{total} projects"
+  count_backed_projects: "a soutenu %{total} projets"
   footer:
     titles:
       info: "Informations utiles"
@@ -551,11 +551,11 @@ fr:
     twitter: ridelab
   static:
     faq:
-      title: "Frequent asked questions"
+      title: "Questions fréquentes"
     guidelines:
-      accept: "I have read and understood how Ride-lab works."
-      submit: "I want to submit my project"
-      subtitle: "Before submitting your project, learn a little about how Ride-lab works."
+      accept: "J'ai lu et compris le fonctionnement de Ride-lab.com."
+      submit: "Je veux créer mon projet"
+      subtitle: "Avant de soumettre votre projet, découvrez comment Ride-lab.com fonctionne."
       title: "Comment fonctionne Ride-lab.com ?"
     privacy:
       title: "Mentions légales"
@@ -573,9 +573,9 @@ fr:
       tabs:
         backed_projects: "Projets soutenus"
         created_projects: "Projets créés"
-        comments: Comments
-        credits: Credits
-        settings: Settings
+        comments: Commentaires
+        credits: Crédits
+        settings: Préférences
     backs:
       anonymous: "Soutenir anonymement."
       no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time! :D"
