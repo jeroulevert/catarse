@@ -33,7 +33,7 @@ fr:
       total_backed: de soutien
       users: Utilisateurs
       funded_projects: "Projets financés"
-      active_projects: "Projets populaires"
+      active_projects: "Projets en cours"
     links:
       how_works: "Fonctionnement"
       faq: FAQ/Aide
