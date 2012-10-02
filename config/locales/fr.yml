@@ -7,12 +7,12 @@ fr:
   newsletter_subscribe: "s'abonner"
   views:
     pagination:
-      next: next
-      last: last
+      next: suivant
+      last: précédent
       truncate: "..."
   statistics:
     backers:
-      subtitle: backers
+      subtitle: Supporters
     goal:
       subtitle: "sur %{total}"
   project_by: "projet par"
@@ -78,22 +78,22 @@ fr:
       backer:
         value: Value
       project:
-        category: Category
-        expires_at: Deadline
-        headline: Headline
+        category: Catégorie
+        expires_at: Date limite
+        headline: Titre
         image_url: "URL de l'image"
-        name: Name
+        name: Nom
         user_id: "User Id"
         video_url: "URL de la vidéo"
       reward:
-        description: Description
+        description: Déscription
         maximum_backers: "Nombre maximum de soutiens"
         minimum_value: "Montant minimum"
       user:
         address_city: Ville
         address_complement: Complément
         address_neighbourhood: Neighbourhood
-        address_number: Number
+        address_number: Numéro
         address_state: State
         address_street: Rue
         address_zip_code: "Code postal"
@@ -101,12 +101,12 @@ fr:
         current_password: "Mot de passe actuel"
         email: Email
         full_name: "Nom"
-        name: Name
+        name: Nom
         password: Mot de passe
         password_confirmation: "Confirmation du mot de passe"
         phone_number: "N° téléphone mobile"
     models:
-      backer: Backer
+      backer: Supporter
       category: Categorie
       project: Projet
       reward: Contrepartie
@@ -115,8 +115,8 @@ fr:
     reward_must_be_from_project: "doit être du même projet"
     should_not_back_if_maximum_backers_been_reached: "a obtenu le nombre maximum de soutiens"
     value_must_be_at_least_rewards_value: "le montant minimum pour cette contrepartie est de %{minimum_value} "
-  backer_plural: backers
-  backer_singular: backer
+  backer_plural: supporters
+  backer_singular: supporter
   click_here: "Cliquer ici"
   clicking_here: "Cliquer ici"
   comment:
@@ -126,15 +126,15 @@ fr:
       back_date: "Date du soutien"
       current_credits_html: "Votre balance actuelle est de <span id=\"current_credits\">%{credits}</span> crédits."
       important_html: "Vous avez <strong>180 jours après votre paiement</strong> pour demander un remboursement. Si vous demandez un remboursement, la totalité de vos crédits vous seront remboursés."
-      project: Project
+      project: Projet
       refund_expration_date: "Date limite de remboursement"
       refunded: Remboursé
       refunds_title: "Paiements pouvant être remboursés"
       request_refund: "Demander remboursement"
       requested_refund: "Remboursement demandé"
-      status: Status
+      status: Statut
       title: "Mes crédits"
-      value: Value
+      value: Valeur
     refund:
       cannot_refund: "Ce paiement ne peut pas être remboursé."
       error: "Oops. Il ya eu une erreur lors de votre demande."
@@ -150,8 +150,8 @@ fr:
     index:
       title: "Curated pages"
     show:
-      backed: backed
-      reached: reached
+      backed: soutenu
+      reached: atteint
   devise:
     confirmations:
       confirmed: "Votre compte est confirmé. Vous êtes connecté."
@@ -264,7 +264,7 @@ fr:
     optional: " (optionnel)"
   found_plural: Trouvé
   found_singular: Trouvé
-  here: here
+  here: ici
   i_backed: "Je soutiens le projet %{name} sur @Ridelab"
   i_just_backed: "Je viens de soutenir le projet %{name} sur @Ridelab"
   layouts:
@@ -309,7 +309,7 @@ fr:
       header_subtitle: "Sans vous, ce projet n'avait peut être aucune chance d'aboutir. Bienvenue dans l'aventure!"
       header_title: "Merci! :D"
       text_subtitle: "Dites à tout le monde ce que vous venez de faire"
-      text_title_html: "You are now part of the group that does everything to make %{link} happen."
+      text_title_html: "Vous faites maintenant partie du groupe qui fait tout pour rendre le projet %{link} possible."
       title: "Merci"
   project:
     start:
@@ -321,8 +321,8 @@ fr:
         email_subject: "Hey! Le projet que vous avez soutenu sur Ride-lab.com est validé!"
         email_text: "Le projet %{project_link}, que vous avez soutenu, est financé sur Ride-lab! Time to celebrate :D<br><br>Thank you very much, from the heart, for your support! Without you this would never have been possible. Soon, %{user_link} will contact you to deliver your reward. Meanwhile, share with everybody this success!"
         facebook_text: "Hey! Le projet '%{name}', que j'ai soutenu, est financé sur Ride-lab!"
-        notification_text: "Hooray! The project %{link} that you backed was successful! Spread the word!"
-        reward_notification_text: "Soon, %{link} will contact you to deliver your reward. Enjoy!"
+        notification_text: "Hey! Le projet %{link} que vous avez soutenu est financé!"
+        reward_notification_text: " %{link} va vous contacter pour vous livrer votre contrepartie. Enjoy!"
         twitter_text: "Hey! Le projet '%{name}', que j'ai soutenu, est financé sur @ridelab! %{short_url}"
       unsuccessful:
         email_subject: "Le projet que vous avez soutenu sur Ride-lab.com est validé."
