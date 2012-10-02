@@ -340,7 +340,7 @@ fr:
       sugest_for_you: "Suggestion pour vous"
       highlight_project: "projet recommandé"
     box:
-      by: by
+      by: de
     admin_fields:
       title: "Champs administrateur"
     back_project:
@@ -369,10 +369,10 @@ fr:
       new:
         cannot_back: "Il n'est pas possible de soutenir ce projet actuellement."
         header:
-          subtitle: "You are a few steps from making the difference and becoming part of this project."
+          subtitle: "Encore un petit effort et vous ferez partie de l'aventure."
           title: "Oohh yeah!"
         no_reward: "Merci. Je veux juste aider ce projet."
-        submit: "Review and proceed to checkout"
+        submit: "Pocéder au paiement"
         title: "Soutien %{name}"
       review:
         credits_notice_html: "Ce soutien a été payé avec vos crédits. Après confirmation, vous aurez <strong>%{credits}</strong> crédits pour soutenir d'autres projets."
@@ -385,14 +385,14 @@ fr:
         review_with_reward_html: "You will back with <strong>%{value}</strong> and receive the following reward: <span class='reward'>%{reward}</span>"
         review_without_reward_html: "You will back with <strong>%{value}</strong> but you don't want any reward for that."
         submit:
-          credits: "Confirm backing with credits"
+          credits: "Soutenir ce projet avec mes crédits"
           moip: "Proceed to MoIP's checkout"
-        subtitle: "This is the last step to make the difference and become part of this project."
-        title: "Fill in and review your data"
+        subtitle: "C'est la dernière étape avant que vous fassiez partie de l'aventure ;-)."
+        title: "Complétez vos données"
         choose_payment: "Comment voulez-vous payer?"
         choose_credit_card: "Carte de crédit"
         choose_boleto: "Billet Banking"
-        you_are_about_html: "You are about to become part of the group that does everything to make %{link} happen."
+        you_are_about_html: "Vous faites maitenant partie du groupe permettant au projet %{link} de se réaliser."
     create:
       success: "Votre projet a été créé! Nous vous contacterons rapidement. Merci!"
     form:
@@ -417,37 +417,37 @@ fr:
       id: Id
       name: Name
       no_projects: "Pas de projets trouvés."
-      order: Order
-      project: Project
+      order: Commande
+      project: Projet
       slug: Slug
-      recommended: Recommended?
-      rejected: Rejected?
-      submit: Search
+      recommended: Recommandé?
+      rejected: Rejeté?
+      submit: Rechercher
       title: "Project management"
-      user: User
+      user: Utilisateur
       visible: Visible?
     pending_backers:
-      anonymous: Anonymous?
-      confirmed: Confirmed?
+      anonymous: Anonyme?
+      confirmed: Confirmé?
       credits: "Used credits?"
       id: Id
       key: Key
-      no_backers: "No backers found."
-      project: Project
-      refunded: Refunded?
+      no_backers: "Pas de supporter trouvé."
+      project: Projet
+      refunded: Remboursé?
       requested_refund: "Demander un remboursement?"
-      reward: Reward
-      submit: Search
+      reward: Contrepartie
+      submit: Rechercher
       title: "Backers management"
       total_backed: backed
       total_backers: backers
       total_backs: backs
       total_users: users
-      user: User
-      value: Value
+      user: Utilisateur
+      value: Valeur
     project:
-      backed: backed
-      reached: reached
+      backed: soutenu
+      reached: atteint
     project_backers:
       empty: "Personne n'a encore soutenu ce projet. Voulez-vous être le premier?"
     project_header:
@@ -481,7 +481,7 @@ fr:
         link: Lien
         link_title: "Partager le lien"
         take_a_look: "Découvrez le projet"
-        title: "Be part of it and share this project"
+        title: "Faites partie de ce projet et partagez-le"
     start:
       about: "Décrivez votre projet et le montant dont vous avez besoin."
       category: "Catégorie"
