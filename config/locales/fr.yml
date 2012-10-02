@@ -518,16 +518,16 @@ fr:
       site_title: "S'enregistrer"
       submit: "S'enregistrer"
       title: "S'enregistrer en utilisant votre email"
-  remaining_plural: left
-  remaining_singular: left
+  remaining_plural: restants
+  remaining_singular: restant
   remove: remove
   require_admin: "You must be admin to perform this action."
   require_login: "Vous devez être connecté."
   require_permission: "You don't have permission to perform this action."
   reward:
-    display_remaining: "%{remaining} of %{maximum} available"
+    display_remaining: "%{remaining} sur %{maximum} disponible"
     dont_want: "Je ne veux pas de contrepartie"
-    limited: Limited
+    limited: Limité
     sold_out: "Epuisé"
   sessions:
     auth:
@@ -564,10 +564,10 @@ fr:
   terms: "conditions d'utilisations"
   user:
     backs_text:
-      many: "Backed this and other %{total} projects"
-      one: "Backed only this project until now"
-      two: "Backed this and 1 other project"
-    no_name: Unnamed
+      many: "A soutenu ce projet et %{total} autres projecs"
+      one: "A soutenu uniquement ce projet pour le moment"
+      two: "A soutenu ce projet et également 1 autre"
+    no_name: Anonyme
   users:
     show:
       tabs:
