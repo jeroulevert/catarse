@@ -578,10 +578,10 @@ fr:
         settings: Préférences
     backs:
       anonymous: "Soutenir anonymement."
-      no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time! :D"
-      no_backs_current_user_html: "You haven't backed any project yet. What about <a href=\"/\">starting now</a>?"
-      no_reward: "You didn't pick a reward"
-      title: "Projects %{name} has backed"
+      no_backs: "%{name} n'a pas encore soutenu de projet, mais nous sommes sûrs que ce n'est qu'une question de temps!  :D"
+      no_backs_current_user_html: "Vous n'avez pas encore soutenu de projet. Pourquoi ne pas <a href=\"/\">commencer maintenant</a>?"
+      no_reward: "Vous n'avez choisi de contrepartie"
+      title: "Les projets %{name} ont été soutenus"
       title_current_user: "Projets que j'ai soutenu"
       your_reward: "Votre contrepartie"
     current_user_fields:
@@ -593,9 +593,9 @@ fr:
       other_link: "Une autre page internet ?"
       change_password: "Changer mon mot de passe"
       current_password_hint: "<i>Nous avons besoin de votre mot de passe actuel pour le changer.</i>"
-      email_hint: "Your email will only be used for communications from Ride-lab and from the projects you back. It won't be visible in your profile. When you back a project, we will give your email to the project owner so he can provide your rewards."
+      email_hint: "Votre email sera utiliser uniquement afin de vous tenir au courant des nouveautés de Ride-lab.com. Il n'est pas visible dans votre profil. Lorsque vous soutenez un projet, nous donnerons votre email au Porteur de projet afin qu'il puisse vous livrer vos contreparties."
       email_tooltip: "Cliquer ici pour remplir votre email..."
-      gravatar_hint_html: "Want to change your picture? Use %{link} with your email. It's as simple as uploading an image and works for other sites as well ;)"
+      gravatar_hint_html: "Vous voulez changer de photo de profil? Utiliser %{link} avec votre email. C'est très simple, il s'uffit juste d'uploader une image et d'utiliser le même mail que celui de votre inscription sur Ride-lab.com  ;)"
       my_data: "Mon profil"
       newsletter: "Je veux recevoir les news de Ride-lab par email"
       password_hint: "<i>Laisser vide si vous ne voulez rien changer.</i>"
@@ -603,9 +603,9 @@ fr:
       bio_tooltip: "Parlez nous de vous..."
       name_tooltip: "Votre nom ?"
     projects:
-      no_projects: "%{name} haven't started any project on Ride-lab yet. We wonder if inspiration will hit one of these days!"
-      no_projects_current_user_html: "Vous n'avez pas créé de projet sur Ride-lab.com. Let the inspiration flow and %{link} to start!"
-      title: "%{name}'s projects"
+      no_projects: "%{name} n'a pas encore créé de projet."
+      no_projects_current_user_html: "Vous n'avez pas créé de projet sur Ride-lab.com."
+      title: "Les projets de %{name}"
       title_current_user: "Mes projets"
   users_mailer:
     notification_email:
@@ -613,7 +613,7 @@ fr:
       forward: "Transmettre à vos amis"
       hello: Hi
       intro: "Vous recevez ce message car vous êtes inscrits sur Ride-lab.com"
-      mailee: "Message delivered by Mailee.me"
+      mailee: "Message delivered by Ride-lab.com"
       salutation: "Sportivement,"
       signature: "Ride-lab's Team"
       unsubscribe: Unsubscribe
