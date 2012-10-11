@@ -387,7 +387,7 @@ fr:
         submit:
           credits: "Soutenir ce projet avec mes crédits"
           moip: "Proceed to MoIP's checkout"
-        subtitle: "C'est la dernière étape avant que vous fassiez partie de l'aventure ;-)."
+        subtitle: "C'est la dernière étape avant que vous ne fassiez partie de l'aventure ;-)."
         title: "Complétez vos données"
         choose_payment: "Comment voulez-vous payer?"
         choose_credit_card: "Carte de crédit"
