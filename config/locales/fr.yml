@@ -307,7 +307,7 @@ fr:
     thank_you:
       error: "Ooops. Vous ne pouvez accéder à cette page uniquement après avoir soutenu ce projet."
       header_subtitle: "Sans vous, ce projet n'avait peut être aucune chance d'aboutir. Bienvenue dans l'aventure!"
-      header_title: "Merci! :D"
+      header_title: "Merci !"
       text_subtitle: "Dites à tout le monde ce que vous venez de faire"
       text_title_html: "Vous faites maintenant partie du groupe qui fait tout pour rendre le projet %{link} possible."
       title: "Merci"
