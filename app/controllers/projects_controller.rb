@@ -34,12 +34,12 @@ class ProjectsController < ApplicationController
 
         @fourth_project = Project.home_page.visible.last unless @recommended_project
 
-        @blog_posts = Blog.fetch_last_posts.inject([]) do |total,item| 
-          if total.size < 2
-            total << item
-          end
-          total
-        end || []
+        # @blog_posts = Blog.fetch_last_posts.inject([]) do |total,item| 
+        #   if total.size < 2
+        #     total << item
+        #   end
+        #   total
+        # end || []
 
         calendar = Calendar.new
         @events = Rails.cache.fetch 'calendar', expires_in: 30.minutes do 
