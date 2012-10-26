@@ -520,7 +520,7 @@ fr:
       title: "S'enregistrer en utilisant votre email"
   remaining_plural: restants
   remaining_singular: restant
-  remove: remove
+  remove: supprimer
   require_admin: "You must be admin to perform this action."
   require_login: "Vous devez être connecté."
   require_permission: "You don't have permission to perform this action."
