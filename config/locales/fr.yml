@@ -408,7 +408,7 @@ fr:
       subtitle_html: "Soutenez des projets créatifs et innovants en participant à leur financement.<br/>Si un projet n'atteint pas son objectif, vous êtes remboursé."
       title: "Incubateur de bonnes idées !"
     new:
-      subtitle: "The time to make it happen is now! We really want to know what you're up to..."
+      subtitle: "Vous avez une idée qui vous trotte dans la tête ? C'est le moment de la réaliser ! Remplissez ce formulaire et nous vous recontacterons très rapidement. "
       title: "Soumettre votre projet"
     pending:
       can_finish: "Can finish?"
