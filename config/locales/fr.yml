@@ -86,9 +86,9 @@ fr:
         user_id: "User Id"
         video_url: "URL de la vidéo"
       reward:
-        description: Déscription
+        description: Description
         maximum_backers: "Nombre maximum de soutiens"
-        minimum_value: "Montant minimum"
+        minimum_value: "Montant minimum à lever"
       user:
         address_city: Ville
         address_complement: Complément
@@ -408,7 +408,7 @@ fr:
       subtitle_html: "Soutenez des projets créatifs et innovants en participant à leur financement.<br/>Si un projet n'atteint pas son objectif, vous êtes remboursé."
       title: "Incubateur de bonnes idées !"
     new:
-      subtitle: "The time to make it happen is now! We really want to know what you're up to..."
+      subtitle: "Vous avez une idée qui vous trotte dans la tête ? C'est le moment de la réaliser ! Remplissez ce formulaire et nous vous recontacterons très rapidement. "
       title: "Soumettre votre projet"
     pending:
       can_finish: "Can finish?"
@@ -488,7 +488,7 @@ fr:
       how_much_you_need: "Quel montant voulez-vous lever?"
       about_hint: "Parlez-nous de votre projet. Détaillez au maximum, l'utilisateur doit voir votre passion à travers votre projet!"
       contact: "Laissez nous votre email pour que l'on puisse vous contacter."
-      links: "Où pouvouns-nous trouver d'autres infos sur votre projet?"
+      links: "Où pouvons-nous trouver d'autres infos sur votre projet?"
       links_hint: "Donnez-nous le maximum de liens."
       video: "Votre projet a t'il une vidéo?"
       video_hint: "Lien Vimeo"
@@ -520,7 +520,7 @@ fr:
       title: "S'enregistrer en utilisant votre email"
   remaining_plural: restants
   remaining_singular: restant
-  remove: remove
+  remove: supprimer
   require_admin: "You must be admin to perform this action."
   require_login: "Vous devez être connecté."
   require_permission: "You don't have permission to perform this action."
