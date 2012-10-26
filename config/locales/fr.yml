@@ -88,7 +88,7 @@ fr:
       reward:
         description: Description
         maximum_backers: "Nombre maximum de soutiens"
-        minimum_value: "Montant minimum"
+        minimum_value: "Montant minimum à lever"
       user:
         address_city: Ville
         address_complement: Complément
