@@ -86,7 +86,7 @@ fr:
         user_id: "User Id"
         video_url: "URL de la vidéo"
       reward:
-        description: Déscription
+        description: Description
         maximum_backers: "Nombre maximum de soutiens"
         minimum_value: "Montant minimum"
       user:
