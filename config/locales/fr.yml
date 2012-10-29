@@ -397,7 +397,7 @@ fr:
       success: "Votre projet a été créé! Nous vous contacterons rapidement. Merci!"
     form:
       add_reward: "Ajouter une contrepartie"
-      important_html: "Merci de noter que Ride-lab.com prelève 5% de comission si votre projet est financé.Paypal prend également une comission d'environ 4% à 5%. Merci d'en tenir compte lors de la création de votre projet."
+      important_html: "Merci de noter que Ride-lab.com prelève 8% de comission si votre projet est financé. 5% pour le site et 3% de frais de fonctionnement de Paypal. Merci d'en tenir compte lors de la création de votre projet."
       project_warning:
         content_html: "Vous voulez que votre projet soit selectionné? N'oubliez pas lire %{link}."
         help_link: "notre guide"
