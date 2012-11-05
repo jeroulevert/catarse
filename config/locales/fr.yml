@@ -88,7 +88,7 @@ fr:
       reward:
         description: Description
         maximum_backers: "Nombre maximum de soutiens"
-        minimum_value: "Montant minimum à lever"
+        minimum_value: "Montant de la contrepartie"
       user:
         address_city: Ville
         address_complement: Complément
@@ -237,7 +237,7 @@ fr:
         about: "Dites en quelques mots ce que vous voulez faire, de combien vous avez besoin et pourquoi. Soyez bref et concis, mais n'oubliez pas de stimuler les lecteurs avec quelque chose qui les enthousiasme. Après tout, c'est votre création, et ils ont besoin d'y ressentir votre passion!"
         category: "Choisissez dans quelle catégorie vous voulez que votre projet apparaisse. Ne vous inquiétez pas si vous pensez qu'il s'inscrit dans plusieurs. Choisissez celle où vous voulez que les gens trouvent votre projet."
         expires_at: "Enfin, choisissez sur combien de temps vous souhaitez réaliser votre campagne. Encore une fois, ce choix est stratégique: si vous mettez une période trop longue, l'intérêt pour le projet se perdra au fur et à mesure; si la durée est trop courte, vous risquez de ne pas atteindre le minimum souhaité dans les temps."
-        goal: "Réfléchissez bien au montant que vous demandez afin de réaliser votre projet. Il devra être <strong>le minimum nécessaire pour réaliser votre projet</strong>. Pas plus, pas moins. Si vous demandez trop, vos chances de valider le projet seront plus faibles; si vous ne demandez pas assez, vous ne serez pas en mesure de le réaliser dans de bonnes conditions."
+        goal: "Réfléchissez bien au montant que vous demandez afin de réaliser votre projet. Il devra être le minimum nécessaire pour réaliser votre projet. Pas plus, pas moins. Si vous demandez trop, vos chances de valider le projet seront plus faibles; si vous ne demandez pas assez, vous ne serez pas en mesure de le réaliser dans de bonnes conditions."
         headline: "Résumé votre projet en 140 caractères. Cette phrase sera le premier contact que l'utilisateur aura avec votre projet, avant même votre vidéo. Soyez créatif, clair et direct:)"
         name: "Quel est le nom de votre projet? Choisissez le bien car il aura une influence sur l'attractivité de votre projet."
         video_url: "Collez l'URL de votre video Vimeo ici. Faites bien attention de coller l'URL sous le format HTTP et non HTTPS. Si votre URL Vimeo est sous ce format, merci de supprimer le \"S\". Nous avons choisi Vimeo.com car les vidéos sont de qualité et ne contiennent pas de pubs."
