@@ -7,10 +7,10 @@
   .logo
     +grid(4)
     +alpha
-    margin-right: 20px
-    height: 54px
+    margin-right: 10px
+    height: 42px
     border: none
-    background: url($images_path+"logo164x54.png") left top no-repeat
+    background: url($images_path+"logo.png") left top no-repeat
     text-indent: -9999em
   nav
     a
@@ -23,7 +23,7 @@
       a
         color: $ultra_gryn
         font-size: 18px
-        margin-right: 27px
+        margin-right: 10px
         &:last-child
           margin-right: 0
         &:hover
@@ -35,7 +35,7 @@
           background: url($images_path+"submit_project_icon25x13.png") left 4px no-repeat
           text-indent: 30px
     &.menu
-      +grid(4)
+      +grid(5)
       margin-top: 20px
       a
         font-family: "Lato-Regular"
@@ -71,10 +71,11 @@
         &:hover
           color: $pink
   .search
-    +grid(4)
+    +grid(3)
     margin-top: 18px
+    width: 160px
     form
-      width: 220px
+      width: 170px
       height: 22px
       +border-radius(8px)
       border: 1px $minimal_gryn solid
@@ -82,7 +83,7 @@
       background: white
       input[type="text"]
         border: none
-        width: 190px
+        width: 140px
         float: left
         margin-left: 3px
         margin-top: 3px
