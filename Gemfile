@@ -28,7 +28,7 @@ gem 'cancan'
 gem 'rails_autolink', '~> 1.0.7'
 
 # Tools
-gem "airbrake"
+# gem "airbrake"
 gem 'feedzirra'
 gem 'formtastic'
 gem "auto_html", '= 1.4.2'
