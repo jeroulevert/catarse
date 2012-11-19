@@ -7,7 +7,7 @@ begin
     :user_name => ENV['SENDGRID_USERNAME'],
     :password => ENV['SENDGRID_PASSWORD'],
     :enable_starttls_auto => true,
-    :domain         => 'heroku.com'
+    :domain         => 'ride-lab.com'
     }
     ActionMailer::Base.delivery_method = :smtp
   end
