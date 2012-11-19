@@ -77,7 +77,6 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
             .facebook
               .fb-like data-href="http://www.facebook.com/pages/Ride-labcom/225103847583458" data-send="false" data-width="171" data-show-faces="true"
             h3.newsletter= t('footer.titles.newsletter')
-            / action="http://ride-lab.us6.list-manage.com/subscribe/post?u=d4c91cd498542ff08cd5a5132&amp;id=a4d2047d37" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate
             = form_tag 'http://ride-lab.us6.list-manage.com/subscribe/post?u=d4c91cd498542ff08cd5a5132&amp;id=a4d2047d37', method: 'post' do
               = text_field_tag 'EMAIL', nil, placeholder: 'email@email.com', id: 'mce-EMAIL'
               = submit_tag t('newsletter_subscribe')
