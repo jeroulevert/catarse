@@ -76,12 +76,10 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
               = link_to "Follow @#{t('site.twitter')}", "http://twitter.com/#{t('site.twitter')}", :class => 'twitter-follow-button', :"data-button"=>"blue", :"data-text-color" => "#ffffff", :"data-link-color"=>"#fffffff", :"data-width" => "224px"
             .facebook
               .fb-like data-href="http://www.facebook.com/pages/Ride-labcom/225103847583458" data-send="false" data-width="171" data-show-faces="true"
-            / h3.newsletter= t('footer.titles.newsletter')
-            / = form_tag 'http://catarse.mailee.me/go/add_contact_form', id: 'mailee-form', method: 'post' do
-              = hidden_field_tag 'key', '13122d'
-              = hidden_field_tag 'url_ok', "http://#{request.env['HTTP_HOST']}/?newsletter=ok"
-              = hidden_field_tag 'url_error', "http://#{request.env['HTTP_HOST']}/?newsletter=error"
-              = text_field_tag 'email', nil, placeholder: 'email@email.com'
+            h3.newsletter= t('footer.titles.newsletter')
+            / action="http://ride-lab.us6.list-manage.com/subscribe/post?u=d4c91cd498542ff08cd5a5132&amp;id=a4d2047d37" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate
+            = form_tag 'http://ride-lab.us6.list-manage.com/subscribe/post?u=d4c91cd498542ff08cd5a5132&amp;id=a4d2047d37', method: 'post' do
+              = text_field_tag 'EMAIL', nil, placeholder: 'email@email.com', id: 'mce-EMAIL'
               = submit_tag t('newsletter_subscribe')
           .clearfix
     #logos
