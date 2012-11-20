@@ -46,19 +46,12 @@
                 .bootstrap-twitter
                   = form.submit (@backer.credits ? t('.submit.credits') : t('.submit.moip')), :disabled => true, :class => 'btn', :id => 'user_submit'
           #payment.hide
-            .title
+            / .title
               h1= t('.choose_payment')
             .choose_payment
               .cc
                 = link_to 'javascript:void(0);', :"data-payment_method_url" => pay_paypal_path(@backer), :method => :get, :class => 'payment_link' do
                   = image_tag 'catarse/cc_icon.png'
-                  span= t('.choose_credit_card')
+                  span= t('.international.submit')
                 .clearfix
-              .or
-                span= t('or')
-              .boleto
-                = link_to checkout_project_backer_path(@backer.project, @backer), :method => :put do
-                  = image_tag 'catarse/boleto_icon.png', :class => 'boleto_icon'
-                  = image_tag 'catarse/cc_icon.png', :class => 'cc_icon'
-                  span= t('.choose_boleto')
     .clearfix
