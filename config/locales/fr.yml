@@ -125,7 +125,7 @@ fr:
     index:
       back_date: "Date du soutien"
       current_credits_html: "Votre solde actuel est de <span id=\"current_credits\">%{credits}</span> crédits."
-      important_html: "Vous avez <strong>180 jours après votre paiement</strong> pour demander un remboursement. Si vous demandez un remboursement, la totalité de vos crédits vous seront remboursés."
+      important_html: "Vous avez <strong>60 jours après votre paiement</strong> pour demander un remboursement. Si vous demandez un remboursement, la totalité de vos crédits vous seront remboursés."
       project: Projet
       refund_expration_date: "Date limite de remboursement"
       refunded: Remboursé
