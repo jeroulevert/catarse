@@ -586,7 +586,7 @@ fr:
       your_reward: "Votre contrepartie"
     current_user_fields:
       updated: "Vos infos sont mises à jour."
-      update_social_info: "Update info"
+      update_social_info: "Mettre à jour"
       social_info: "Contact info"
       twitter: "twitter ( nom d'utilisateur )"
       facebook_link: "Lien vers votre profil Facebook"
