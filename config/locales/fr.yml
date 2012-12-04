@@ -356,7 +356,7 @@ fr:
       submit: "Soutenir ce projet"
     backer:
       anonymous_backer: "Soutien anonyme"
-      anonymous_description: "Opted to remain incognito"
+      anonymous_description: "Souhaite rester anonyme"
       no_reward: "Cet utilisateur n'a pas choisi de contrepartie"
     backers:
       checkout:
