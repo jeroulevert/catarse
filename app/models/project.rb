@@ -213,5 +213,4 @@ class Project < ActiveRecord::Base
       in_time: in_time?
     }
   end
-
 end
