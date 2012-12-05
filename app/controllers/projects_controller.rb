@@ -32,6 +32,8 @@ class ProjectsController < ApplicationController
         @expiring             = presenter.expiring
         @recent               = presenter.recent
 
+        @recommended = Project.home_page.recommended.limit(3).order('created_at')
+
         @fourth_project = Project.home_page.not_expired.recommended.visible.last unless @recommended_project
         @fourth_project = Project.home_page.home_page.visible.last unless @recommended_project
 
