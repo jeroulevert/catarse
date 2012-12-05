@@ -33,7 +33,7 @@ class ProjectsController < ApplicationController
         @recent               = presenter.recent
 
         @fourth_project = Project.home_page.not_expired.recommended.visible.last unless @recommended_project
-        @fourth_project = Project.home_page.recommended.visible.last unless @recommended_project
+        @fourth_project = Project.home_page.home_page.visible.last unless @recommended_project
 
         # @blog_posts = Blog.fetch_last_posts.inject([]) do |total,item| 
         #   if total.size < 2
