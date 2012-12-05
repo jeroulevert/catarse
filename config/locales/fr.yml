@@ -124,8 +124,8 @@ fr:
   credits:
     index:
       back_date: "Date du soutien"
-      current_credits_html: "Votre balance actuelle est de <span id=\"current_credits\">%{credits}</span> crédits."
-      important_html: "Vous avez <strong>180 jours après votre paiement</strong> pour demander un remboursement. Si vous demandez un remboursement, la totalité de vos crédits vous seront remboursés."
+      current_credits_html: "Votre solde actuel est de <span id=\"current_credits\">%{credits}</span> crédits."
+      important_html: "Vous avez <strong>60 jours après votre paiement</strong> pour demander un remboursement. Si vous demandez un remboursement, la totalité de vos crédits vous seront remboursés."
       project: Projet
       refund_expration_date: "Date limite de remboursement"
       refunded: Remboursé
@@ -232,7 +232,7 @@ fr:
     hints:
       backer:
         credits: "Vous avez <strong>%{credits}</strong> crédits et vous pouvez les utiliser pour soutenir un projet."
-        value: "Vous choisissez le montant. Cela démarre à 10€, mais n'importe quel montant est le bienvenue ;-)"
+        value: "Vous choisissez le montant. Cela démarre à 10€, mais n'importe quel montant est le bienvenu ;-)"
       project:
         about: "Dites en quelques mots ce que vous voulez faire, de combien vous avez besoin et pourquoi. Soyez bref et concis, mais n'oubliez pas de stimuler les lecteurs avec quelque chose qui les enthousiasme. Après tout, c'est votre création, et ils ont besoin d'y ressentir votre passion!"
         category: "Choisissez dans quelle catégorie vous voulez que votre projet apparaisse. Ne vous inquiétez pas si vous pensez qu'il s'inscrit dans plusieurs. Choisissez celle où vous voulez que les gens trouvent votre projet."
@@ -356,7 +356,7 @@ fr:
       submit: "Soutenir ce projet"
     backer:
       anonymous_backer: "Soutien anonyme"
-      anonymous_description: "Opted to remain incognito"
+      anonymous_description: "Souhaite rester anonyme"
       no_reward: "Cet utilisateur n'a pas choisi de contrepartie"
     backers:
       checkout:
@@ -372,7 +372,7 @@ fr:
           subtitle: "Encore un petit effort et vous ferez partie de l'aventure."
           title: "Oohh yeah!"
         no_reward: "Merci. Je veux juste aider ce projet."
-        submit: "Pocéder au paiement"
+        submit: "Procéder au paiement"
         title: "Soutien %{name}"
       review:
         credits_notice_html: "Ce soutien a été payé avec vos crédits. Après confirmation, vous aurez <strong>%{credits}</strong> crédits pour soutenir d'autres projets."
@@ -380,10 +380,10 @@ fr:
         international:
           description: "You can use PayPal to make international payments"
           important_html: "<p>The use of PayPal is destinated mostly for international payments. That's because you'll have only 60 days to receive an eventual refund without paying any fee.</p><p>In case you can make the regular payment through MoIP, we recommend you to do it.</p><p>But if that's not possible, don't worry: you'll always be able to receive your money back. Only, in case your refund is made more than 60 days after your payment, you'll have to pay PayPal's fee, which is 5,4% + EUR0,60 per transaction.</p>"
-          submit: "Proceed to PayPal's checkout"
+          submit: "Payer avec Paypal"
           title: "Want to make an international payment?"
-        review_with_reward_html: "You will back with <strong>%{value}</strong> and receive the following reward: <span class='reward'>%{reward}</span>"
-        review_without_reward_html: "You will back with <strong>%{value}</strong> but you don't want any reward for that."
+        review_with_reward_html: "Vous participez à hauteur de <strong>%{value}</strong> et recevrez la contrepartie suivante: <span class='reward'>%{reward}</span>"
+        review_without_reward_html: "Vous participez à hauteur de <strong>%{value}</strong> sans contreparties."
         submit:
           credits: "Soutenir ce projet avec mes crédits"
           moip: "Proceed to MoIP's checkout"
@@ -586,7 +586,7 @@ fr:
       your_reward: "Votre contrepartie"
     current_user_fields:
       updated: "Vos infos sont mises à jour."
-      update_social_info: "Update info"
+      update_social_info: "Mettre à jour"
       social_info: "Contact info"
       twitter: "twitter ( nom d'utilisateur )"
       facebook_link: "Lien vers votre profil Facebook"
