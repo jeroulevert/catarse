@@ -564,7 +564,7 @@ fr:
   terms: "conditions d'utilisations"
   user:
     backs_text:
-      many: "A soutenu ce projet et %{total} autres projecs"
+      many: "A soutenu ce projet et %{total} autres projets"
       one: "A soutenu uniquement ce projet pour le moment"
       two: "A soutenu ce projet et également 1 autre"
     no_name: Anonyme
