@@ -560,8 +560,8 @@ fr:
     privacy:
       title: "Mentions légales"
     terms:
-      title: "Conditions d'utilisations"
-  terms: "conditions d'utilisations"
+      title: "Conditions d'utilisation"
+  terms: "conditions d'utilisation"
   user:
     backs_text:
       many: "A soutenu ce projet et %{total} autres projets"
