@@ -232,7 +232,7 @@ fr:
     hints:
       backer:
         credits: "Vous avez <strong>%{credits}</strong> crédits et vous pouvez les utiliser pour soutenir un projet."
-        value: "Vous choisissez le montant. Cela démarre à 10€, mais n'importe quel montant est le bienvenu ;-)"
+        value: "Vous choisissez le montant. Cela démarre à 2 EUR, mais n'importe quel montant est le bienvenu ;-)"
       project:
         about: "Dites en quelques mots ce que vous voulez faire, de combien vous avez besoin et pourquoi. Soyez bref et concis, mais n'oubliez pas de stimuler les lecteurs avec quelque chose qui les enthousiasme. Après tout, c'est votre création, et ils ont besoin d'y ressentir votre passion!"
         category: "Choisissez dans quelle catégorie vous voulez que votre projet apparaisse. Ne vous inquiétez pas si vous pensez qu'il s'inscrit dans plusieurs. Choisissez celle où vous voulez que les gens trouvent votre projet."

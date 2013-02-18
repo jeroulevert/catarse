@@ -232,7 +232,7 @@ en:
     hints:
       backer:
         credits: "You have <strong>%{credits}</strong> in credits and can back with up to this amount without needing to make a new payment."
-        value: "You chose the amount ;) starting with EUR10, any amount is great."
+        value: "You chose the amount ;) starting with EUR 2, any amount is great."
       project:
         about: "Tell us a little about what you want to do, how much you need and what for. Be brief and punctual, but don't forget to give the readers something that moves them. After all, it's your creation and they need to see your passion taking place!"
         category: "Choose in which category you want your project to appear. Don't worry if you think it fits in more than one. Choose the one where you want people to find your project."
