@@ -318,16 +318,16 @@ fr:
       notification_text: "Nous avons bien reçu votre projet"
     finish:
       successful:
-        email_subject: "Hey! Le projet que vous avez soutenu sur Ride-lab.com est validé!"
-        email_text: "Le projet %{project_link}, que vous avez soutenu, est financé sur Ride-lab! Time to celebrate :D<br><br>Thank you very much, from the heart, for your support! Without you this would never have been possible. Soon, %{user_link} will contact you to deliver your reward. Meanwhile, share with everybody this success!"
+        email_subject: "Hey! Le projet que vous avez soutenu sur Ride-lab.com est financé!"
+        email_text: "Le projet %{project_link}, que vous avez soutenu, est financé sur Ride-lab!<br><br>Merci beaucoup pour votre soutien ! %{user_link} va vous contacter rapidement."
         facebook_text: "Hey! Le projet '%{name}', que j'ai soutenu, est financé sur Ride-lab!"
         notification_text: "Hey! Le projet %{link} que vous avez soutenu est financé!"
         reward_notification_text: " %{link} va vous contacter pour vous livrer votre contrepartie. Enjoy!"
         twitter_text: "Hey! Le projet '%{name}', que j'ai soutenu, est financé sur @ridelab! %{short_url}"
       unsuccessful:
-        email_subject: "Le projet que vous avez soutenu sur Ride-lab.com est validé."
-        email_text: "Le projet %{project_link}, que vous avez soutenu, n'est pas financé. Peut être une autre fois!<br><br>Vous recevez <strong>%{value}</strong> crédits pour soutenir d'autres projets. Si vous le souhaitez, vous pouvez demander un remboursement %{credits_link}."
-        notification_text: "Vous recevez %{value} crédits pour soutenir d'autres projets. Si vous le souhaitez, vous pouvez demander un remboursement %{link}."
+        email_subject: "Le projet que vous avez soutenu sur Ride-lab.com n'est pas financé."
+        email_text: "Le projet %{project_link}, que vous avez soutenu, n'est pas financé. Peut être une autre fois!<br><br>Vous recevez <strong>%{value}</strong> crédits pour soutenir d'autres projets. Si vous le souhaitez, vous pouvez demander un remboursement : %{credits_link}."
+        notification_text: "Vous recevez %{value} crédits pour soutenir d'autres projets. Si vous le souhaitez, vous pouvez demander un remboursement : %{link}."
         unsuccessful_text: "Le projet %{link} n'a pas été financé. Peut être une autre fois!"
     verify_if_video_exists_on_vimeo: "doit exister sur Vimeo"
     vimeo_regex_validation: "Seules les vidéos Vimeo sont acceptées"
@@ -611,7 +611,7 @@ fr:
     notification_email:
       alt: "Vous devez afficher les images pour voir correctement cet email."
       forward: "Transmettre à vos amis"
-      hello: Hi
+      hello: Bonjour
       intro: "Vous recevez ce message car vous êtes inscrits sur Ride-lab.com"
       mailee: "Message delivered by Ride-lab.com"
       salutation: "Sportivement,"
