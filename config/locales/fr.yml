@@ -319,7 +319,7 @@ fr:
     finish:
       successful:
         email_subject: "Hey! Le projet que vous avez soutenu sur Ride-lab.com est validé!"
-        email_text: "Le projet %{project_link}, que vous avez soutenu, est financé sur Ride-lab! Time to celebrate :D<br><br>Thank you very much, from the heart, for your support! Without you this would never have been possible. Soon, %{user_link} will contact you to deliver your reward. Meanwhile, share with everybody this success!"
+        email_text: "Le projet %{project_link}, que vous avez soutenu, est financé sur Ride-lab!<br><br>Merci beaucoup pour votre soutien ! %{user_link} va vous contacter rapidement."
         facebook_text: "Hey! Le projet '%{name}', que j'ai soutenu, est financé sur Ride-lab!"
         notification_text: "Hey! Le projet %{link} que vous avez soutenu est financé!"
         reward_notification_text: " %{link} va vous contacter pour vous livrer votre contrepartie. Enjoy!"
