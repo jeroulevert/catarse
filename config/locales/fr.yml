@@ -467,6 +467,9 @@ fr:
     send_mail:
       success: "Votre projet a été créé! Nous vous contacterons rapidement. Merci!!"
     show:
+      contact_project_owner: "Contacter le porteur de projet"
+      project_owner_facebook_page: "Facebook"
+      project_owner_twitter: "Twitter"
       rejected: "Ce projet n'est pas selectionné. Peut être une autre fois!"
       waiting: "Ce projet est en attente de validation par l'équipe de Ride-lab.com"
       about_title: "A propos de ce projet"

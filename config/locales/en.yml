@@ -467,6 +467,9 @@ en:
     send_mail:
       success: "Your project was successfully sent! We'll soon contact you. Thanks a lot!"
     show:
+      contact_project_owner: "Contact project owner"
+      project_owner_facebook_page: "Facebook"
+      project_owner_twitter: "Twitter"
       rejected: "This project was not selected to participate on Ride-lab.com. Maybe next time! :)"
       waiting: "This project is waiting for approval and soon we'll know if it will go online on Ride-lab.com ;)"
       about_title: "About this project"
