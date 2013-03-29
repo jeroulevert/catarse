@@ -100,8 +100,8 @@ fr:
         cpf: CPF
         current_password: "Mot de passe actuel"
         email: Email
-        full_name: "Nom"
-        name: Nom
+        full_name: "Nom et prénom"
+        name: Nom d'utilisateur
         password: Mot de passe
         password_confirmation: "Confirmation du mot de passe"
         phone_number: "Numéro de téléphone"
