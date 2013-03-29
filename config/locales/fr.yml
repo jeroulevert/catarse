@@ -1,5 +1,5 @@
 fr:
-  or: or
+  or: ou
   newsletter_ok_header: "Vous êtes inscrit à notre newsletter!"
   newsletter_ok_body: "Votre email est maintenant dans notre mailing liste, merci!"
   newsletter_error_header: "Woops! Il y a eu une erreur."
@@ -100,11 +100,11 @@ fr:
         cpf: CPF
         current_password: "Mot de passe actuel"
         email: Email
-        full_name: "Nom"
-        name: Nom
+        full_name: "Nom et prénom"
+        name: Nom d'utilisateur
         password: Mot de passe
         password_confirmation: "Confirmation du mot de passe"
-        phone_number: "N° téléphone mobile"
+        phone_number: "Numéro de téléphone"
     models:
       backer: Supporter
       category: Categorie
