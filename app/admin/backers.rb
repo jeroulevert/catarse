@@ -34,6 +34,12 @@ ActiveAdmin.register Backer do
     redirect_to :action => :show, :notice => I18n.t('cancel_refund')
   end
 
+  member_action :confirm, :method => :put do
+    backer = Backer.find(params[:id])
+    backer.confirm!
+    redirect_to :action => :show, :notice => I18n.t('backer_confirmed')
+  end
+  
   show do
     div :class => "panel_contents" do
       div :class => "attributes_table backer" do
@@ -63,7 +69,16 @@ ActiveAdmin.register Backer do
               th I18n.t('backer.refunded')
               td backer.refunded ? I18n.t('yes') : I18n.t('no')
             end
+            tr do
+              th I18n.t('backer.confirmed')
+              td backer.confirmed ? I18n.t('yes') : I18n.t('no')
+            end
           end
+        end
+      end
+      div do
+        unless backer.confirmed
+          link_to I18n.t('backer.confirm'), confirm_admin_backer_path(backer), :method => :put
         end
       end
       div do

@@ -1,0 +1,11 @@
+en:
+  backer:
+    refund_request: "Refund request"
+    cancel_refund_request: "Cancel refund request"
+    confirm: "Confirm Pledge"
+    confirmed: "Confirmed"
+    refunded: "Refunded"
+    requested_refund: "Requested refund"
+    value: "Value"
+    key: "Key"
+    

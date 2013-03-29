@@ -106,6 +106,7 @@ en:
         password_confirmation: "Password Confirmation"
         phone_number: "Mobile phone number"
     models:
+      user: User
       backer: Backer
       category: Category
       project: Project
