@@ -243,7 +243,7 @@ fr:
         video_url: "Collez l'URL de votre video Vimeo ici. Faites bien attention de coller l'URL sous le format HTTP et non HTTPS. Si votre URL Vimeo est sous ce format, merci de supprimer le \"S\". Nous avons choisi Vimeo.com car les vidéos sont de qualité et ne contiennent pas de pubs."
       reward:
         description: "Décrivez la contrepartie et donnez envie aux utilisateurs de vous soutenir. Soyez persuasif !"
-        maximum_backers: "Souhaitez-vous fixer une nombre limité de contreparties, dites-nous quel est votre maximum?"
+        maximum_backers: "Souhaitez-vous fixer un nombre limité de contreparties, dites-nous quel est votre maximum?"
         minimum_value: "Ceci est le montant minimum pour cette contrepartie."
     labels:
       backer:
