@@ -217,13 +217,13 @@ fr:
   error: "Ooops! Il y a eu une erreur. Merci de réessayer."
   explore:
     index:
-      categories: Categories
+      categories: Catégories
       expiring: "Compte à rebours"
       quick_explore: "Recherche"
       recent: Récent
       recommended: Recommandé
       subtitle: "Découvrez les projets, choisissez ceux qui vous touchent, et faites les se réaliser!"
-      successful: Successful
+      successful: Financés
       title: "Découvrir des projets étonnants"
     title: "Découvrir les projets"
     project:
