@@ -398,7 +398,7 @@ en:
       success: "Your project was successfully created! We'll soon contact you. Thanks a lot!"
     form:
       add_reward: "Add reward"
-      important_html: "Please notice that Ride-lab.com will charge 5% if your project is successful, and our payment gateways (Paypal) charge 3% per transaction. Add this values to your budget in order to execute your project with no surprises."
+      important_html: "Please notice that Ride-lab.com will charge 10% if your project is successful. Add this values to your budget in order to execute your project with no surprises."
       project_warning:
         content_html: "Want to have your project selected? Don't forget to read %{link}."
         help_link: "our guide"
