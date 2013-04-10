@@ -509,7 +509,7 @@ fr:
       subtitle: "The time to make it happen is now! We really want to know what you're up to..."
       title: "Soumettre votre projet"
     twitter:
-      take_a_look: "Check out the project %{name} on @Ride-lab"
+      take_a_look: "Découvrez le projet %{name} sur @Ride-lab"
     video_embed:
       a_project_by_html: "Un projet de %{link}"
   projects_mailer:
