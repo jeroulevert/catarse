@@ -21,7 +21,10 @@ CATARSE.ProjectsShowView = Backbone.View.extend({
       $(event.target).next('.deleting_update').hide();
     });
 
-    this.project = new CATARSE.Project($('#project_description').data("project"))
+		project_data = $('#project_description').data("project");
+    this.project = new CATARSE.Project(project_data);
+		if (project_data.background_img)
+			$("body").css("background","none").css("background-image","url("+project_data.background_img+")").css("background-size","100% auto").css("background-attachment","fixed");
     this.render()
   },
 

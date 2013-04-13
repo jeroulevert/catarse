@@ -21,6 +21,8 @@ class Project < ActiveRecord::Base
 
   has_vimeo_video :video_url, :message => I18n.t('project.vimeo_regex_validation')
 
+  mount_uploader :background, BackgroundUploader
+
   auto_html_for :about do
     html_escape :map => {
       '&' => '&amp;',
@@ -210,6 +212,7 @@ class Project < ActiveRecord::Base
       waiting_confirmation: waiting_confirmation?,
       display_status_to_box: I18n.t("project.display_status.#{display_status}").capitalize,
       display_expires_at: display_expires_at,
+      background_img: self.background.url,
       in_time: in_time?
     }
   end

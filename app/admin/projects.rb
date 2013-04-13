@@ -32,6 +32,7 @@ ActiveAdmin.register Project do
       f.input :expires_at
       f.input :about
       f.input :headline
+      f.input :background
       f.input :video_url, :as => :string
       f.input :can_finish
       f.input :finished
