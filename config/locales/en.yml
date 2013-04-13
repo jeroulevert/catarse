@@ -380,7 +380,7 @@ en:
         error: "Ooops. There was an error while registering your back. Please try again."
         international:
           description: "You can use PayPal to make international payments"
-          important_html: "<p>The use of PayPal is destinated mostly for international payments. That's because you'll have only 60 days to receive an eventual refund without paying any fee.</p><p>In case you can make the regular payment through MoIP, we recommend you to do it.</p><p>But if that's not possible, don't worry: you'll always be able to receive your money back. Only, in case your refund is made more than 60 days after your payment, you'll have to pay PayPal's fee, which is 5,4% + EUR0,60 per transaction.</p>"
+          important_html: "<p>The use of PayPal is destinated mostly for international payments. That's because you'll have only 60 days to receive an eventual refund without paying any fee.</p><p>"
           submit: "Proceed to PayPal's checkout"
           title: "Want to make an international payment?"
         review_with_reward_html: "You will back with <strong>%{value}</strong> and receive the following reward: <span class='reward'>%{reward}</span>"
@@ -398,7 +398,7 @@ en:
       success: "Your project was successfully created! We'll soon contact you. Thanks a lot!"
     form:
       add_reward: "Add reward"
-      important_html: "Please notice that Ride-lab.com will charge 5% if your project is successful, and our payment gateways (Paypal) charge 3% per transaction. Add this values to your budget in order to execute your project with no surprises."
+      important_html: "Please notice that Ride-lab.com will charge 10% if your project is successful. Add this values to your budget in order to execute your project with no surprises."
       project_warning:
         content_html: "Want to have your project selected? Don't forget to read %{link}."
         help_link: "our guide"
