@@ -543,7 +543,7 @@ en:
   site:
     host: ride-lab.com
     base_url: "http://ride-lab.com/"
-    blog: "http://www.blog.ride-lab.com"
+    blog: "https://www.facebook.com/RideLabFR"
     email:
       contact: hello@ride-lab.com
       payments: hello@ride-lab.com
