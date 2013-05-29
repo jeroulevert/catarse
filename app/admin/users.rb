@@ -28,7 +28,7 @@ ActiveAdmin.register User do
       f.input :newsletter
       f.input :project_updates
       f.input :admin
-      f.input :address_city
+      f.input :address_city, :as => :string
       f.input :locale, :as => :string
     end
 
