@@ -1,12 +1,12 @@
 #encoding: utf-8
 ActiveAdmin::Dashboards.build do
 
-  section "Relatorios" do
+  section "Dashboards" do
     ul do
-      li link_to 'Usuários que mais apoiaram', most_backed_report_path
-      li link_to 'Todos os apoios confirmados', all_confirmed_backers_report_path
-      li link_to 'Todos os realizadores', all_projects_owner_report_path
-      li link_to 'Todos os emails', all_emails_to_newsletter_path
+      li link_to 'Export all backers (CSV)', most_backed_report_path #lib/report/users/backers
+      li link_to 'Export all confirmed backings (CSV)', all_confirmed_backers_report_path #lib/report/users/backers
+      li link_to 'Export projects & owners (CSV)', all_projects_owner_report_path #lib/report/users/projects
+      li link_to 'Export all users emails (CSV)', all_emails_to_newsletter_path #lib/report/users/emails
     end
   end
 
