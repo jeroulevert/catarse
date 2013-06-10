@@ -5,11 +5,11 @@ en:
     messages:
       expired: "a expiré, merci d'en demander un nouveau"
       not_found: "non trouvé"
-      already_confirmed: "est déjà confirmé, merci de vous recoonecter"
+      already_confirmed: "est déjà confirmé, merci de vous reconnecter"
       not_locked: "n'est pas bloqué"
       not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: "1 erreur a empêché la sauvegarde de %{resource}."
+        other: "%{count} erreurs ont empêché la sauvegarde de %{resource}."
 
   devise:
     failure:
@@ -18,8 +18,8 @@ en:
       unconfirmed: 'Vous devez confirmer votre compte avant de pouvoir continuer.'
       locked: 'Votre compte est bloqué.'
       invalid: 'Email ou mot de passe invalide.'
-      invalid_token: 'Invalid authentication token.'
-      timeout: 'Votre session a expirée. Merci de vous reconnecter.'
+      invalid_token: "Jeton d'authentification invalide."
+      timeout: 'Votre session a expiré. Merci de vous reconnecter.'
       inactive: 'Votre compte est inactif.'
     sessions:
       signed_in: 'Vous êtes connecté.'
@@ -45,10 +45,10 @@ en:
     unlocks:
       send_instructions: 'Vous allez recevoir un email vous expliquant comment débloquer votre compte.'
       unlocked: 'Votre compte est débloqué ! Vous êtes connecté.'
-      send_paranoid_instructions: 'Si vous êtes energistré sur Ride-lab.com, vous allez recevoir un email vous expliquant comment débloquer votre compte.'
+      send_paranoid_instructions: 'Si vous êtes enregistré sur Ride-lab.com, vous allez recevoir un email vous expliquant comment débloquer votre compte.'
     omniauth_callbacks:
-      success: 'Successfully authorized from %{kind} account.'
-      failure: 'Could not authorize you from %{kind} because "%{reason}".'
+      success: 'Connexion réussie depuis votre compte %{kind}.'
+      failure: 'Connexion échouée depuis votre compte %{kind} à cause de "%{reason}".'
     mailer:
       confirmation_instructions:
         subject: 'Confirmer votre compte'
