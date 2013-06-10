@@ -3,6 +3,8 @@ module Reports
   module Location
     class Backers
       class << self
+
+        # report : project backers
         def report(project_id)
           @project = Project.find(project_id)
           @backers = @project.backers.includes(:payment_detail, :user).confirmed
@@ -12,9 +14,9 @@ module Reports
             # TODO: Change this later *order and names to use i18n*
             # for moment header only in portuguese.
             csv_string << [
-              'Nome do apoiador',
-              'Cidade',
-              'Estado'
+              'Backer name',
+              'Backer city',
+              'Backer state'
             ]
 
             @backers.each do |backer|

@@ -3,6 +3,8 @@ module Reports
   module Financial
     class Backers
       class << self
+      
+        # report : detailed backers & payments
         def report(project_id)
           @project = Project.find(project_id)
           @backers = @project.backers.includes(:payment_detail, :user).confirmed
@@ -12,27 +14,27 @@ module Reports
             # TODO: Change this later *order and names to use i18n*
             # for moment header only in portuguese.
             csv_string << [
-              'Nome do apoiador',
-              'Valor do apoio',
-              'Recompensa selecionada (valor)',
-              'Recompensa selecionada (nome)',
-              'Serviço de pagamento',
-              'Forma de pagamento',
-              'Taxa do meio de pagamento',
-              'ID da transacao',
-              'Data do apoio',
-              'Data do pagamento confirmado',
-              'Email (conta do apoiador)',
-              'Email (conta em que fez o pagamento)',
-              'Login do usuario no MoIP',
-              'CPF',
-              'Endereço',
-              'Complemento',
-              'Numero',
-              'Bairro',
-              'Cidade',
-              'Estado',
-              'CEP'
+              'Backer name',
+              'Backing amount',
+              'Counterpart (amount)',
+              'Counterpart (name)',
+              'Payment gateway',
+              'Payment method',
+              'Payment fee',
+              'Transaction ID',
+              'Backing date',
+              'Payment confirmation date',
+              'Backer Email',
+              'Payment Email',
+              'Payment name',
+              'Backer CPF',
+              'Address street',
+              'Address complement',
+              'Address nb',
+              'Address neighbourhood',
+              'City',
+              'State',
+              'ZIP/postal code'
             ]
 
             @backers.each do |backer|

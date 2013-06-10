@@ -3,18 +3,20 @@ module Reports
   module Users
     class Backers
       class << self
+
+        # report all_confirmed backings
         def all_confirmed_backers
           @backers = Backer.confirmed.includes(:project, :reward)
 
           @csv = CSV.generate(:col_sep => ',') do |csv_string|
             csv_string << [
-              'Valor',
-              'Recompensa Selecionada Valor',
-              'Feito em',
-              'Projeto',
-              'Bem sucedido?',
-              'Termina em',
-              'Categoria'
+              'Backing amount',
+              'Counterpart min amount',
+              'Backing date',
+              'Project name',
+              'Project successful',
+              'Project end date',
+              'Project category'
             ]
 
             @backers.each do |backer|
@@ -23,7 +25,7 @@ module Reports
                 (backer.reward.minimum_value if backer.reward),
                 (backer.created_at.strftime("%d/%m/%Y") if backer.created_at),
                 backer.project.name,
-                (backer.project.successful? ? 'Sim' : 'Não'),
+                (backer.project.successful? ? 'Y' : 'N'),
                 (backer.project.expires_at.strftime("%d/%m/%Y") if backer.project.expires_at),
                 backer.project.category.name
               ]
@@ -31,6 +33,7 @@ module Reports
           end
         end
 
+        # report most backed
         def most_backed(limit=50)
           @users = User.most_backeds.limit(limit)
 
@@ -39,11 +42,11 @@ module Reports
             # TODO: Change this later *order and names to use i18n*
             # for moment header only in portuguese.
             csv_string << [
-              'ID',
-              'Nome do apoiador',
-              'Email',
-              'Total de apoios',
-              'Valor total'
+              'User ID',
+              'User name',
+              'User Email',
+              'Backing Nb',
+              'Backing total amount'
             ]
 
             @users.each do |user|
