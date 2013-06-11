@@ -1,5 +1,11 @@
-<p>Welcome <%= @resource.email %>!</p>
+<p><%= t('users_mailer.notification_email.hello'), @resource.email %> !</p>
 
-<p>You can confirm your account through the link below:</p>
+<p><%= t('devise.mailer.confirmation_instructions.body') %></p>
 
-<p><%= link_to 'Confirm my account', confirmation_url(@resource, :confirmation_token => @resource.confirmation_token) %></p>
+<p><%= link_to t('devise.mailer.confirmation_instructions.link'), confirmation_url(@resource, :confirmation_token => @resource.confirmation_token) %></p>
+
+<p><%= t('users_mailer.notification_email.salutation') %>
+<br>
+<br>
+<%= t('users_mailer.notification_email.signature') %>
+</p>

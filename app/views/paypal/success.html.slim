@@ -2,9 +2,9 @@
   .container
     #thank_you
       - if @backer.confirmed?
-        .success Seu pagamento foi confirmado.
+        .success = t('projects.back_project.payment_confirmed')
       - else
-        .notice Seu pagamento ainda não foi confirmado pelo nosso sistema. Você receberá um email com a confirmação assim que ela for recebida.
+        .notice = t('projects.back_project.payment_not_confirmed')
       .title
         h1 = t('.header_title')
         h2= t('.header_subtitle')

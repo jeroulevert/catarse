@@ -153,11 +153,13 @@ en:
     show:
       backed: backed
       reached: reached
+# devise
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."
       send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
       send_paranoid_instructions: "If your e-mail exists on our database, you will receive a password recovery link on your e-mail"
+      resend_instructions: "Resend confirmation instructions"
     failure:
       already_authenticated: "You are already signed in."
       inactive: "Your account was not activated yet."
@@ -171,14 +173,21 @@ en:
       forgot_password: "Forgot your password?"
       sign_in: "Sign in"
       sign_up: "Sign up"
+      confirmation: "Didn't receive confirmation instructions ?"
+      unlock: "Didn't receive unlock instructions ?"
+      omniauth: "Sign in with "
     mailer:
       confirmation_instructions:
-        subject: "Confirmation instructions"
+        subject: "Account confirmation"
+        body: "Please confirm your account through the link below:"
+        link: "Account confirmation"
       reset_password_instructions:
         subject: "Reset password instructions"
         alt: "Reset password instructions"
       unlock_instructions:
-        subject: "Unlock Instructions"
+        subject: "Unlock your account"
+        body: "Your account has been locked due to an excessive amount of unsuccessful sign in attempts.<br><br>Click the link below to unlock your account."
+        link: "Unlock your account"
     omniauth_callbacks:
       failure: "Could not authorize you from %{kind} because \"%{reason}\"."
       success: "Successfully authorized from %{kind} account."
@@ -215,6 +224,7 @@ en:
       send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
       send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
       unlocked: "Your account was successfully unlocked. You are now signed in."
+      resend_instructions: "Resend unlock instructions"
   error: "Ooops! There was an error. Please try again."
   explore:
     index:
@@ -345,6 +355,8 @@ en:
     admin_fields:
       title: "Admin fields"
     back_project:
+      payment_confirmed: "Your payment was confirmed."
+      payment_not_confirmed: "Your payment could not be confirmed by our system. You will receive an email as soon as we will have the confirmation."
       project_warning:
         not_successful:
           expired: "This project didn't reach the goal of %{goal} until %{date} and wasn't funded"
@@ -611,6 +623,7 @@ en:
       no_projects_current_user_html: "You haven't submitted any project to Ride-lab.com yet. Let the inspiration flow and %{link} to start!"
       title: "%{name}'s projects"
       title_current_user: "My projects"
+# mails to users
   users_mailer:
     notification_email:
       alt: "You must enable images in order to correctly view this message."

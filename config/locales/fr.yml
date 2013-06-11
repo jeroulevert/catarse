@@ -1,5 +1,5 @@
 fr:
-  or: ou
+  or: "ou"
   newsletter_ok_header: "Vous êtes inscrit à notre newsletter!"
   newsletter_ok_body: "Votre email est maintenant dans notre mailing liste, merci!"
   newsletter_error_header: "Woops! Il y a eu une erreur."
@@ -7,12 +7,12 @@ fr:
   newsletter_subscribe: "s'abonner"
   views:
     pagination:
-      next: suivant
-      last: précédent
+      next: "suivant"
+      last: "précédent"
       truncate: "..."
   statistics:
     backers:
-      subtitle: Supporters
+      subtitle: "Supporters"
     goal:
       subtitle: "sur %{total}"
   project_by: "projet par"
@@ -28,18 +28,18 @@ fr:
       social: "Vous aimez Ride-lab.com?"
       newsletter: "Recevoir notre newsletter"
     stats:
-      backers: Supporters
-      backs: Soutiens
-      total_backed: de soutien
-      users: Utilisateurs
+      backers: "Supporters"
+      backs: "Soutiens"
+      total_backed: "de soutien"
+      users: "Utilisateurs"
       funded_projects: "Projets financés"
       active_projects: "Projets en cours"
     links:
       how_works: "Fonctionnement"
-      faq: FAQ/Aide
+      faq: "FAQ/Aide"
       terms: "C.G.U."
       policy: "Confidentialité"
-      contact: Contact
+      contact: "Contact"
   main:
     links:
       selected: "Voir plus de projets recommandés"
@@ -47,26 +47,27 @@ fr:
       recents: "Voir plus de projets récents"
   sidebar:
     titles:
-      blog: blog
+      blog: "blog"
       facebook: "Notre facebook?"
       twitter: "@ridelab"
       newsletter: "Recevoir notre actualité?"
       faq: "Vous avez un doute?"
-      schedule: calendar
+      schedule: "calendrier"
     buttons:
-      newsletter: soumettre
+      newsletter: "soumettre"
   sections:
     selection:
-      title: sélection
+      title: "sélection"
     expiring:
-      title: se terminant
+      title: "se terminant"
     recents:
-      title: récents
+      title: "récents"
     partners:
-      title: partenaires
+      title: "partenaires"
   "no": "Non"
   "yes": "Oui"
   accept_terms_html: "J'ai lu et accepté les %{link}."
+# active record
   activerecord:
     errors:
       models:
@@ -76,17 +77,17 @@ fr:
               not_found: "Votre email n'est pas enregistré, merci de le vérifier ou de vous enregistrer"
     attributes:
       backer:
-        value: Value
+        value: "Value"
       project:
-        category: Catégorie
-        expires_at: Date limite
-        headline: Titre
+        category: "Catégorie"
+        expires_at: "Date limite"
+        headline: "Titre"
         image_url: "URL de l'image"
-        name: Nom
+        name: "Nom"
         user_id: "User Id"
         video_url: "URL de la vidéo"
       reward:
-        description: Description
+        description: "Description"
         maximum_backers: "Nombre maximum de soutiens"
         minimum_value: "Montant de la contrepartie"
       user:
@@ -101,7 +102,7 @@ fr:
         current_password: "Mot de passe actuel"
         email: Email
         full_name: "Nom et prénom"
-        name: Nom d'utilisateur
+        name: "Nom d'utilisateur"
         password: Mot de passe
         password_confirmation: "Confirmation du mot de passe"
         phone_number: "Numéro de téléphone"
@@ -115,8 +116,8 @@ fr:
     reward_must_be_from_project: "doit être du même projet"
     should_not_back_if_maximum_backers_been_reached: "a obtenu le nombre maximum de soutiens"
     value_must_be_at_least_rewards_value: "le montant minimum pour cette contrepartie est de %{minimum_value} "
-  backer_plural: supporters
-  backer_singular: supporter
+  backer_plural: "supporters"
+  backer_singular: "supporter"
   click_here: "Cliquer ici"
   clicking_here: "Cliquer ici"
   comment:
@@ -152,16 +153,18 @@ fr:
     show:
       backed: soutenu
       reached: atteint
+# devise
   devise:
     confirmations:
       confirmed: "Votre compte est confirmé. Vous êtes connecté."
       send_instructions: "Vous allez recevoir un email vous demandant de confirmer votre inscription."
       send_paranoid_instructions: "Vous allez recevoir par email un lien vous permettant de réinitialiser votre mot de passe."
+      resend_instructions: "Réenvoyer la confirmation d'inscription"
     failure:
       already_authenticated: "Vous êtes déjà connecté."
       inactive: "Votre compte n'est pas encore activé."
       invalid: "Email ou mot de passe invalide."
-      invalid_token: "Invalid authentication token."
+      invalid_token: "Jeton d'authentification invalide."
       locked: "Votre compte est bloqué."
       timeout: "Votre session a expiré. Merci de vous reconnecter."
       unauthenticated: "Vous devez vous connecter ou vous enregistrer pour continuer."
@@ -170,17 +173,24 @@ fr:
       forgot_password: "Mot de passe oublié?"
       sign_in: "Se connecter"
       sign_up: "S'inscrire"
+      confirmation: "Confirmation de création de compte non reçue ?"
+      unlock: "Confirmation de déblocage de compte non reçue ?"
+      omniauth: "Se connecter avec "
     mailer:
       confirmation_instructions:
-        subject: "Instructions de confirmation"
+        subject: "Confirmation de votre inscription"
+        body: "Merci de cliquer sur le lien ci-dessous pour confirmer votre inscription."
+        link: "Confirmation de votre inscription"
       reset_password_instructions:
-        subject: "Instructions pour réinitialiser votre mot de passe"
+        subject: "Réinitialisation de votre mot de passe"
         alt: "Instructions pour réinitialiser votre mot de passe"
       unlock_instructions:
-        subject: "Instruction de déblocage"
+        subject: "Déblocage de votre compte"
+        body: "Votre compte a été bloqué en raison d'un trop grand nombre de tentatives de connexion infructueuses.<br><br>Merci de cliquer sur le lien ci-dessous pour débloquer votre compte."
+        link: "Déblocage de votre compte"
     omniauth_callbacks:
-      failure: "Could not authorize you from %{kind} because \"%{reason}\"."
-      success: "Successfully authorized from %{kind} account."
+      failure: "Impossible de vous connecter avec le compte %{kind} à cause de \"%{reason}\"."
+      success: "Connexion réussie avec le compte %{kind}."
     passwords:
       send_instructions: "Vous allez recevoir un email avec les instructions réinitialiser votre mot de passe."
       send_paranoid_instructions: "Vous allez recevoir par email un lien vous permettant de réinitialiser votre mot de passe."
@@ -190,9 +200,9 @@ fr:
       destroyed: "Bye! Vous vous êtes désinscrit. Nous espérons vous revoir bientôt. ;-)"
       inactive_signed_up: "Votre inscription est un succés! Cependant, nous n'avons pu vous connecter car votre compte est %{reason}."
       reasons:
-        inactive: inactif
-        locked: bloqué
-        unconfirmed: non confirmé
+        inactive: "inactif"
+        locked: "bloqué"
+        unconfirmed: "non confirmé"
       signed_up: "Bienvenue! Vous êtes maintenant enregistré."
       updated: "Vous avez mis à jour votre compte."
     sessions:
@@ -200,7 +210,7 @@ fr:
         site_title: "Se connecter"
         submit: "Se connecter"
         title: "Connectez-vous en utilisant votre email"
-        login_title: Login
+        login_title: "Login"
         login_subtitle: "Si vous avez déja un compte"
         register_title: "S'enregistrer"
         register_subtitle: "Utiliser l'email de votre compte"
@@ -214,6 +224,7 @@ fr:
       send_instructions: "Vous allez recevoir un email vous expliquant comment débloquer votre compte."
       send_paranoid_instructions: "Si votre compte existe, vous allez recevoir un email avec les instructions pour débloquer votre compte."
       unlocked: "Votre compte est débloqué. Vous êtes maintenant connecté."
+      resend_instructions: "Réenvoyer les instructions pour débloquer votre compte"
   error: "Ooops! Il y a eu une erreur. Merci de réessayer."
   explore:
     index:
@@ -228,6 +239,7 @@ fr:
     title: "Découvrir les projets"
     project:
       empty: "Désolé, nous n'avons pas trouvé de projets."
+# formtastic
   formtastic:
     hints:
       backer:
@@ -289,6 +301,7 @@ fr:
     cancel: Annuler
     ok: OK
     tooltip: "Cliquer pour modifier..."
+# passwords
   passwords:
     edit:
       label_new_password: "Nouveau mot de passe"
@@ -297,12 +310,13 @@ fr:
       site_title: "Changer son mot de passe"
       subtitle: "Vous souhaitez réinitialiser votre mot de passe. Changez votre mot de passe et cliquez sur \"Change Password\". S'il s'agit d'une erreur, vous n'avez qu'à passer cette page."
     email:
-      content_html: " <p>Someone has requested a link to change your password, and you can do this through the link below.</p><p>%{link}</p><p>If you didn't request this, please ignore this email.</p><p>Your password won't change until you access the link above and create a new one.</p> "
+      content_html: " <p>Une demande de modification de votre mot de passe a été soumise, vous pouvez continuer en cliquant sur le lien suivant.</p><p>%{link}</p><p>Si vous n'êtes pas à l'origine de cette demande de modification de mot de passe, merci d'ignorer ce mail.</p><p>Votre mot de passe ne sera pas modifié tant que vous n'utiliserez pas lien fourni ci-dessus pour en créer un nouveau.</p> "
       title: "Instructions pour changer de mot de passe."
     new:
       submit: "M'envoyer les instructions pour changer de mot de passe"
       title: "Mot de passe oublié?"
       site_title: "Récupérer votre mot de passe"
+# payment
   payment_stream:
     thank_you:
       error: "Ooops. Vous ne pouvez accéder à cette page uniquement après avoir soutenu ce projet."
@@ -311,6 +325,7 @@ fr:
       text_subtitle: "Dites à tout le monde ce que vous venez de faire"
       text_title_html: "Vous faites maintenant partie du groupe qui fait tout pour rendre le projet %{link} possible."
       title: "Merci"
+# project
   project:
     start:
       email_subject: "Nous avons bien reçu votre projet"
@@ -333,8 +348,9 @@ fr:
     vimeo_regex_validation: "Seules les vidéos Vimeo sont acceptées"
     display_status:
       expired: "non financé"
-      successful: financé
+      successful: "financé"
       waiting_confirmation: en attente
+# projects
   projects:
     recommended_header:
       sugest_for_you: "Suggestion pour vous"
@@ -344,6 +360,8 @@ fr:
     admin_fields:
       title: "Champs administrateur"
     back_project:
+      payment_confirmed: "Votre paiement a bien été confirmé."
+      payment_not_confirmed: "Votre paiement n'a pas encore été confirmé par notre système. Vous recevrez un email dès que nous en aurons la confirmation."
       project_warning:
         not_successful:
           expired: "Ce projet n'a pas atteint le montant de %{goal} avant le %{date} et n'est pas validé"
@@ -524,9 +542,9 @@ fr:
   remaining_plural: restants
   remaining_singular: restant
   remove: supprimer
-  require_admin: "You must be admin to perform this action."
+  require_admin: "Vous devez avoir les droits administrateur pour réaliser cette action."
   require_login: "Vous devez être connecté."
-  require_permission: "You don't have permission to perform this action."
+  require_permission: "Vous n'avez pas les droits pour réaliser cette action."
   reward:
     display_remaining: "%{remaining} sur %{maximum} disponible"
     dont_want: "Je ne veux pas de contrepartie"
@@ -539,6 +557,7 @@ fr:
       success: "Vous êtes déconnecté. A bientôt!"
     failure:
       error: "Il y a eu une erreur en vous connectant. Merci de réessayer."
+# site
   site:
     host: ride-lab.com
     base_url: "http://ride-lab.com/"
@@ -552,6 +571,7 @@ fr:
     name: Ride-lab.com
     title: "Financement de projets sportifs"
     twitter: ridelab
+# static
   static:
     faq:
       title: "Questions fréquentes"
@@ -571,6 +591,7 @@ fr:
       one: "A soutenu uniquement ce projet pour le moment"
       two: "A soutenu ce projet et également 1 autre"
     no_name: Anonyme
+# users
   users:
     show:
       tabs:
@@ -596,7 +617,7 @@ fr:
       other_link: "Une autre page internet ?"
       change_password: "Changer mon mot de passe"
       current_password_hint: "<i>Nous avons besoin de votre mot de passe actuel pour le changer.</i>"
-      email_hint: "Votre email sera utiliser uniquement afin de vous tenir au courant des nouveautés de Ride-lab.com. Il n'est pas visible dans votre profil. Lorsque vous soutenez un projet, nous donnerons votre email au Porteur de projet afin qu'il puisse vous livrer vos contreparties."
+      email_hint: "Votre email sera utilisé uniquement afin de vous tenir au courant des nouveautés de Ride-lab.com. Il n'est pas visible dans votre profil. Lorsque vous soutenez un projet, nous donnerons votre email au Porteur de projet afin qu'il puisse vous livrer vos contreparties."
       email_tooltip: "Cliquer ici pour remplir votre email..."
       gravatar_hint_html: "Vous voulez changer de photo de profil? Utiliser %{link} avec votre email. C'est très simple, il s'uffit juste d'uploader une image et d'utiliser le même mail que celui de votre inscription sur Ride-lab.com  ;)"
       my_data: "Mon profil"
@@ -610,17 +631,18 @@ fr:
       no_projects_current_user_html: "Vous n'avez pas créé de projet sur Ride-lab.com."
       title: "Les projets de %{name}"
       title_current_user: "Mes projets"
+# mails to users
   users_mailer:
     notification_email:
       alt: "Vous devez afficher les images pour voir correctement cet email."
       forward: "Transmettre à vos amis"
-      hello: Bonjour
-      intro: "Vous recevez ce message car vous êtes inscrits sur Ride-lab.com"
+      hello: "Bonjour"
+      intro: "Vous recevez ce message car vous êtes inscrit sur Ride-lab.com"
       mailee: "Message delivered by Ride-lab.com"
       salutation: "Sportivement,"
       signature: "Ride-lab's Team"
-      unsubscribe: Unsubscribe
+      unsubscribe: "Se désinscrire"
       unsubscribe_long: "Si vous ne souhaitez pas recevoir ces emails"
-      weblink: "View on the web"
+      weblink: "Voir sur le web"
       whitelist: "Ajouter contact"
       whitelist_long: "Ajouter notre email à vos contacts"
