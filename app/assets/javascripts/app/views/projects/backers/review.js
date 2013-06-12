@@ -127,7 +127,8 @@ CATARSE.BackersReviewView = Backbone.View.extend({
     }
     $('#user_cpf').mask("999.999.999-99")
     // $('#user_address_zip_code').mask("99999-999")
-    $('#user_phone_number').mask("(99)9999-9999")
+    // fix issue #7
+    //$('#user_phone_number').mask("(99)9999-9999")
 
     $('input[type=text]').keyup(everything_ok)
     // $('#user_address_zip_code').keyup(function(){ zip_code_valid = false; everything_ok() })
